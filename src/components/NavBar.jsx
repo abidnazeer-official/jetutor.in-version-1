@@ -26,7 +26,13 @@ export const NavBar = () => {
           </td>
           <td>
             <div>
-              <Link to={"/MRD090924"}>09-09-24</Link>
+              <Link to={"/MRS"}>Monday Results Day [MRD]</Link>
+            </div>
+          </td>
+          <td>
+            <div>
+              <Link to={"/CurrentMondayResults"}>Current Monday Results</Link>
+              <div align ="center">30-09-24</div>
             </div>
           </td>
         </tr>
