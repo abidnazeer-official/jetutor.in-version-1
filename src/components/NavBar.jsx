@@ -7,32 +7,32 @@ export const NavBar = () => {
 
   return (
     <nav>
-      <table>
+      <table cellPadding={1} width={250}>
         <tr>
           <td>
-            <div style={{ marginLeft: "50px" }}>
+            <div>
               <img
                 src={jetutorinlogoUrl}
                 alt="Remote Image"
                 height="50px"
                 width="50px"
               ></img>
+                <Link to={"/"}><h4>Home</h4> </Link>
+            </div>
+          </td>
+          {/* <td>
+            <div>
+              <Link to={"/"}><h4>Home</h4> </Link>
+            </div>
+          </td> */}
+          <td>
+            <div>
+              <Link to={"/MRS"}><h5>Monday Results Day [MRD]</h5></Link>
             </div>
           </td>
           <td>
             <div>
-              <Link to={"/"}>Home</Link>
-            </div>
-          </td>
-          <td>
-            <div>
-              <Link to={"/MRS"}>Monday Results Day [MRD]</Link>
-            </div>
-          </td>
-          <td>
-            <div>
-              <Link to={"/CurrentMondayResults"}>Current Monday Results</Link>
-              <div align ="center">30-09-24</div>
+              <Link to={"/CurrentMondayResults"}><h5>Current Monday Results<div>14-10-24</div></h5></Link>
             </div>
           </td>
         </tr>

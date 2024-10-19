@@ -10,7 +10,7 @@ export const MRS = () => {
         <div>Monday Results Day [MRD]</div>
         <div style={{marginTop: '50px', marginLeft:'50px'}}>
         <div align= "center"><h1>Monday Results Day [History]</h1></div>
-        <table border={2} cellPadding={15} align="center">  
+        <table border={2} cellPadding={15} align="center" height={100} width={800}>  
           {/* Row Heading */}
           <tr>
               <th>May 2024</th>  
@@ -18,6 +18,7 @@ export const MRS = () => {
               <th>July 2024</th>
               <th>August 2024</th>
               <th>September 2024</th>
+              <th>October 2024</th>
           </tr>
           
            {/* row-1 */}
@@ -29,6 +30,8 @@ export const MRS = () => {
             <td><Link to="/MRD050824">05-08-24</Link></td>
             {/*column-5*/}
             <td><Link to="/MRD020924">02-09-24</Link></td>
+            {/*column-6*/}
+            <td><Link to="/MRD071024">07-10-24</Link></td>
           </tr>
 
           {/* row-2 */}
@@ -40,6 +43,8 @@ export const MRS = () => {
             <td><Link to="/MRD120824">12-08-24</Link></td>
             {/*column-5*/}
             <td><Link to="/MRD090924">09-09-24</Link></td>
+            {/*column-6*/}
+            <td><Link to="/MRD141024">14-10-24</Link></td>
           </tr>
 
           {/* row-3 */}
@@ -51,6 +56,8 @@ export const MRS = () => {
             <td><Link to="/MRD190824">19-08-24</Link></td>
             {/*column-5*/}
             <td><Link to="/MRD160924">16-09-24</Link></td>
+            {/*column-6*/}
+            <td><Link to="/MRD211024">21-10-24 [Results Pending]</Link></td>
           </tr>
           
           {/* row-4 */}
@@ -62,7 +69,9 @@ export const MRS = () => {
              {/* column-4 */}
              <td><Link to="/MRD260824">26-08-24</Link></td>
              {/* column-5*/}
-             <td><Link to="/MRD230924">23-09-24</Link></td> 
+             <td><Link to="/MRD230924">23-09-24</Link></td>
+             {/*column-6*/}
+            <td><Link to="/MRD281024">28-10-24 [Results Pending]</Link></td> 
           </tr>
 
           {/*row-5*/}
@@ -74,6 +83,8 @@ export const MRS = () => {
               <td></td>
               <td><Link to="/MRD300924">30-09-24</Link></td>
           </tr>
+
+                  
 
         </table>
         </div>

@@ -24,6 +24,8 @@ import { MRD090924 } from "./components/MRD090924";
 import { MRD160924 } from "./components/MRD160924";
 import { MRD230924 } from "./components/MRD230924";
 import { MRD300924 } from "./components/MRD300924";
+import { MRD071024 } from "./components/MRD071024";
+import { MRD141024 } from "./components/MRD141024";
 import { CurrentMondayResults } from "./components/CurrentMondayResults";
 
 const App = () => {
@@ -56,6 +58,8 @@ const App = () => {
           <Route path="/MRD160924" element={<MRD160924/>}/>
           <Route path="/MRD230924" element={<MRD230924/>}/>
           <Route path="/MRD300924" element={<MRD300924/>}/>
+          <Route path="/MRD071024" element={<MRD071024/>}/>
+          <Route path="/MRD141024" element={<MRD141024/>}/>
           <Route path="/CurrentMondayResults" element={<CurrentMondayResults/>}/>
         </Routes>
       </div>
