@@ -27,12 +27,12 @@ export const NavBar = () => {
           </td> */}
           <td>
             <div>
-              <Link to={"/MRS"}><h5>Monday Results Day [MRD]</h5></Link>
+              <Link to={"/MRS"}><h5>Monday Results Day [History]</h5></Link>
             </div>
           </td>
           <td>
             <div>
-              <Link to={"/CurrentMondayResults"}><h5>Current Monday Results<div>14-10-24</div></h5></Link>
+              <Link to={"/CurrentMondayResults"}><h5>Current Monday Results<div>21-10-24</div></h5></Link>
             </div>
           </td>
         </tr>

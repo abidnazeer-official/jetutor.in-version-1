@@ -57,7 +57,7 @@ export const MRS = () => {
             {/*column-5*/}
             <td><Link to="/MRD160924">16-09-24</Link></td>
             {/*column-6*/}
-            <td><Link to="/MRD211024">21-10-24 [Results Pending]</Link></td>
+            <td><Link to="/MRD211024">21-10-24</Link></td>
           </tr>
           
           {/* row-4 */}
@@ -71,7 +71,7 @@ export const MRS = () => {
              {/* column-5*/}
              <td><Link to="/MRD230924">23-09-24</Link></td>
              {/*column-6*/}
-            <td><Link to="/MRD281024">28-10-24 [Results Pending]</Link></td> 
+            <td><Link to="/MRD281024">28-10-24<br />[Results Pending]</Link></td> 
           </tr>
 
           {/*row-5*/}
