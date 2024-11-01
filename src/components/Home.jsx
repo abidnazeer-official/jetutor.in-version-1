@@ -23,17 +23,17 @@ export const Home = () => {
           </em>
         </p>
         <h4>
-        Monday Results Day [21-10-24]<p style={{ color: "blue" }}>Status: Active</p>
+        Monday Results Day [28-10-24]<p style={{ color: "blue" }}>Status: Active</p>
         </h4>
       </div>
       <div align="center">
-        <p style={{ color: "blue" }}>Rank-1: p4dhaan_umar</p>
+        <p style={{ color: "green" }}>Rank-1: vasudav__05</p>
       </div>
       <div align="center">
-        <p style={{ color: "blue" }}>Rank-2: srikanth_rocky_</p>
+        <p style={{ color: "green" }}>Rank-2: c_e_o_tech</p>
       </div>
       <div align="center">
-        <p style={{ color: "blue" }}>Rank-3: headgapure_ratnadeep</p>
+        <p style={{ color: "green" }}>Rank-3: headgapure_ratnadeep</p>
       </div>
       <br />
       <br />
@@ -130,7 +130,7 @@ export const Home = () => {
         <b>ContactUs:</b> info@jetutor.in
       </div>
       <div align="right">
-        <h6> version: 1.0.0.5</h6>
+        <h6> version: 1.0.0.6</h6>
       </div>
     </>
   );
