@@ -23,17 +23,11 @@ export const Home = () => {
           </em>
         </p>
         <h4>
-        Monday Results Day [28-10-24]<p style={{ color: "blue" }}>Status: Active</p>
+        Monday Results Day [18-11-24]<p style={{ color: "blue" }}>Status: Active</p>
         </h4>
       </div>
-      <div align="center">
-        <p style={{ color: "green" }}>Rank-1: vasudav__05</p>
-      </div>
-      <div align="center">
-        <p style={{ color: "green" }}>Rank-2: c_e_o_tech</p>
-      </div>
-      <div align="center">
-        <p style={{ color: "green" }}>Rank-3: headgapure_ratnadeep</p>
+      <div align = "center">
+        <img src="https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2Findex.html%2Fimages%2FActive%20Learner's%20Ranking%2FCurrent%20Week%20Ranking%2F18-11-24%20Topper's%20names.jpg?alt=media&token=e2afd7d6-fdcb-4932-8727-739f25da24ba" alt="Check your Internet connection!" />
       </div>
       <br />
       <br />
@@ -130,7 +124,7 @@ export const Home = () => {
         <b>ContactUs:</b> info@jetutor.in
       </div>
       <div align="right">
-        <h6> version: 1.0.0.6</h6>
+        <h6> version: 1.0.0.7</h6>
       </div>
     </>
   );

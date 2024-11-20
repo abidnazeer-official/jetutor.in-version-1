@@ -30,6 +30,10 @@ import { MRD211024 } from "./components/MRD211024";
 import { CurrentMondayResults } from "./components/CurrentMondayResults";
 import { Days100JavaLearningPlan } from "./components/Days100JavaLearningPlan";
 import { MRD281024 } from "./components/MRD281024";
+import { MRD041124 } from "./components/MRD041124";
+import { MRD111124 } from "./components/MRD111124";
+import { MRD181124 } from "./components/MRD181124";
+import { MRD251124 } from "./components/MRD251124";
 
 const App = () => {
   
@@ -67,6 +71,10 @@ const App = () => {
           <Route path="/CurrentMondayResults" element={<CurrentMondayResults/>}/>
           <Route path="/Days100LearningPlan" element={<Days100JavaLearningPlan/>}/>
           <Route path="/MRD281024" element={<MRD281024/>}/>
+          <Route path="/MRD041124" element={<MRD041124/>}/>
+          <Route path="/MRS/MRD111124" element={<MRD111124/>}/>
+          <Route path="/MRD181124" element={<MRD181124/>}/>
+          <Route path="/MRD251124" element={<MRD251124/>}/>
         </Routes>
       </div>
       </>

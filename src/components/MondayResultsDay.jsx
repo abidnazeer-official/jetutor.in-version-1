@@ -19,6 +19,7 @@ export const MRS = () => {
               <th>August 2024</th>
               <th>September 2024</th>
               <th>October 2024</th>
+              <th>November 2024</th>
           </tr>
           
            {/* row-1 */}
@@ -32,6 +33,8 @@ export const MRS = () => {
             <td><Link to="/MRD020924">02-09-24</Link></td>
             {/*column-6*/}
             <td><Link to="/MRD071024">07-10-24</Link></td>
+            {/* column-7 */}
+            <td><Link to="/MRD041124">04-11-24</Link></td>
           </tr>
 
           {/* row-2 */}
@@ -45,6 +48,8 @@ export const MRS = () => {
             <td><Link to="/MRD090924">09-09-24</Link></td>
             {/*column-6*/}
             <td><Link to="/MRD141024">14-10-24</Link></td>
+            {/* column-7 */}
+            <td><Link to="MRD111124">11-11-24</Link></td>
           </tr>
 
           {/* row-3 */}
@@ -58,6 +63,8 @@ export const MRS = () => {
             <td><Link to="/MRD160924">16-09-24</Link></td>
             {/*column-6*/}
             <td><Link to="/MRD211024">21-10-24</Link></td>
+            {/* column */}
+            <td><Link to="/MRD181124">18-11-24</Link></td>
           </tr>
           
           {/* row-4 */}
@@ -71,7 +78,9 @@ export const MRS = () => {
              {/* column-5*/}
              <td><Link to="/MRD230924">23-09-24</Link></td>
              {/*column-6*/}
-            <td><Link to="/MRD281024">28-10-24<br />[Results Pending]</Link></td> 
+            <td><Link to="/MRD281024">28-10-24<br /></Link></td>
+            {/* column-7  */}
+            <td><Link to="/MRD251124">25-11-24</Link></td>
           </tr>
 
           {/*row-5*/}
