@@ -1,4 +1,6 @@
 import React from "react";
+import DynamicBoxes from "./DynamicBoxes";
+
 
 export const Home = () => {
   const imageUrlContactInfo =
@@ -37,6 +39,15 @@ export const Home = () => {
 
       <br />
       <hr />
+      
+      {/* <Router>
+        {/* Dynamic Boxes */}
+      <div>
+        <h1>Java Interview Preparation</h1>
+        <DynamicBoxes/>
+      </div>
+      
+      {/* Horizontal Line */}
       <hr />
 
       <div align="center">
