@@ -1,10 +1,17 @@
 import React from "react";
+import { useEffect } from "react";
 
 export const MSearchedQ = () => {
+    //manually control the scroll position when the component mounts.
+    function Autoscrolltop_MSearchedQ(){
+        useEffect(() => {
+            window.scrollTo(0, 0);
+        }, []);
+    }
   return (
     <>
+     <div><Autoscrolltop_MSearchedQ/></div>
       <div>Most Searched Questions</div>
-      <div style={{marginBottom: "500px"}}>
       <br />
       <details>
         <br />
@@ -128,6 +135,8 @@ export const MSearchedQ = () => {
         </summary>
       </details>
       <br />
+      <div style={{marginBottom: "250px"}}>
+
       </div>
     </>
   );

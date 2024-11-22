@@ -21,12 +21,12 @@ export const Home = () => {
       <div align="center">
         <p style={{ color: "red" }}>
           <em>
-            <h4>Instagram jetutor.in Topper’s of the Last Week </h4>
+            <h2>Instagram jetutor.in Topper’s of the Last Week </h2>
           </em>
         </p>
-        <h4>
+        <h1>
         Monday Results Day [18-11-24]<p style={{ color: "blue" }}>Status: Active</p>
-        </h4>
+        </h1>
       </div>
       <div align = "center">
         <img src="https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2Findex.html%2Fimages%2FActive%20Learner's%20Ranking%2FCurrent%20Week%20Ranking%2F18-11-24%20Topper's%20names.jpg?alt=media&token=e2afd7d6-fdcb-4932-8727-739f25da24ba" alt="Check your Internet connection!" />

@@ -32,7 +32,7 @@ export const NavBar = () => {
           </td>
           <td>
             <div>
-              <Link to={"/CurrentMondayResults"}><h4>Current Monday Results<div>28-10-24</div></h4></Link>
+              <Link to={"/CurrentMondayResults"}><h4>Current Monday Results<div>18-11-24</div></h4></Link>
             </div>
           </td>
           <td>

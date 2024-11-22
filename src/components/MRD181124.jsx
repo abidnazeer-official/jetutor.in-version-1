@@ -1,7 +1,8 @@
 import React from "react";
+import { useEffect } from "react";
 
 export const MRD181124 = () => {
-    const imgUrlMRD181124_1 =
+  const imgUrlMRD181124_1 =
     "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2FNovember%202024%2F18-11-24%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20241118_082442_0000.png?alt=media&token=62f156f6-9011-4bf7-b2d1-a98cb7ca8a08";
   const imgUrlMRD181124_2 =
     "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2FNovember%202024%2F18-11-24%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20241118_082442_0001.png?alt=media&token=51468a24-aa38-4d4d-8709-f7db83aee41d";

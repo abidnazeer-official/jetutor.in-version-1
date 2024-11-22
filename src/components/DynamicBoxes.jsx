@@ -5,10 +5,9 @@ function DynamicBoxes() {
   // Define the boxes
   const boxes = [
     { color: "yellow", label: "Most Searched Questions" , path: "/MSearchedQ"},
-    { color: "blue", label: "Core Java Questions" },
-    { color: "green", label: "Adavance Java Questions" },
+    { color: "blue", label: "Core Java Questions" , path: "/CoreJavaQ"},
+    { color: "green", label: "Adavance Java Questions" , path: "/AdvancedJavaQ" },
   ];
-
   return (
     <div
       style={{
