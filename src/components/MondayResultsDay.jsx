@@ -10,7 +10,7 @@ export const MRS = () => {
         <div>Monday Results Day [MRD]</div>
         <div style={{marginTop: '50px', marginLeft:'50px'}}>
         <div align= "center"><h1>Monday Results Day [History]</h1></div>
-        <table border={2} cellPadding={15} align="center" height={100} width={800}>  
+        <table border={2} cellPadding={15} align="center" height={300} width={1000}>  
           {/* Row Heading */}
           <tr>
               <th>May 2024</th>  
@@ -20,6 +20,7 @@ export const MRS = () => {
               <th>September 2024</th>
               <th>October 2024</th>
               <th>November 2024</th>
+              <th>December 2024</th>
           </tr>
           
            {/* row-1 */}
@@ -35,6 +36,8 @@ export const MRS = () => {
             <td><Link to="/MRD071024">07-10-24</Link></td>
             {/* column-7 */}
             <td><Link to="/MRD041124">04-11-24</Link></td>
+            {/* column-8 */}
+            <td><Link to="/MRD021224">02-12-24</Link></td>
           </tr>
 
           {/* row-2 */}

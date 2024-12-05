@@ -1,6 +1,6 @@
 import React from "react";
 import DynamicBoxes from "./DynamicBoxes";
-
+import VideoPlayer from "./VideoPlayer";
 
 export const Home = () => {
   const imageUrlContactInfo =
@@ -25,28 +25,75 @@ export const Home = () => {
           </em>
         </p>
         <h1>
-        Monday Results Day [18-11-24]<p style={{ color: "blue" }}>Status: Active</p>
+          Monday Results Day [02-12-24]
+          <p style={{ color: "blue" }}>Status: Active</p>
         </h1>
       </div>
-      <div align = "center">
-        <img src="https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2Findex.html%2Fimages%2FActive%20Learner's%20Ranking%2FCurrent%20Week%20Ranking%2F18-11-24%20Topper's%20names.jpg?alt=media&token=e2afd7d6-fdcb-4932-8727-739f25da24ba" alt="Check your Internet connection!" />
+      <div align="center">
+        <img
+          src="https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2Findex.html%2Fimages%2FActive%20Learner's%20Ranking%2FCurrent%20Week%20Ranking%2F02-12-24%20Homepage%20Ranking.jpeg?alt=media&token=e2994ae1-87e2-472e-828c-d0f7614d104e"
+          alt="Check your Internet connection!"
+          height={450}
+          width={800}
+        />
       </div>
       <br />
       <br />
       <div align="center">
-        <p><b>Note:</b> Rank will be automatically updated next Monday.</p>
+        <p>
+          <b>Note:</b> Rank will be automatically updated next Monday.
+        </p>
       </div>
 
       <br />
       <hr />
-      
+
       {/* <Router>
         {/* Dynamic Boxes */}
       <div>
         <h1>Java Interview Preparation</h1>
-        <DynamicBoxes/>
+        <DynamicBoxes />
       </div>
-      
+
+      {/* Horizontal Line */}
+      <hr />
+      <div>
+        <h1>Instagram Java Questions Solution</h1>
+        <table width={500} height={500}>
+          <tr style={{display: "flex", gap: "350px"}}>
+            <td><h3>Lecture-1</h3></td>
+            <td><h3>Lecture-2</h3></td>
+            <td><h3>Lecture-3</h3></td>
+          </tr>
+          <tr style={{display: "flex", gap: "100px"}}>
+            <td>
+              <VideoPlayer videoUrl="https://youtu.be/chjo4rHhUxQ?si=0Fd4Mx8HYaTq-HSo" />
+            </td>
+            <td>
+              <VideoPlayer videoUrl="https://youtu.be/RYPl-I1MesE?si=ZtQft5NaS0e_GTcv" />
+            </td>
+            <td>
+            <VideoPlayer videoUrl="https://youtu.be/lW_vqoOxu4E?si=wfaCgL-FdpK1mwIX" />
+            </td>
+          </tr>
+
+
+          <tr style={{display: "flex", gap: "350px"}}>
+            <td><h3>Lecture-4</h3></td>
+            <td><h3>Lecture-5</h3></td>
+          </tr>
+          <tr style={{display: "flex", gap: "100px"}}>
+            <td>
+            <VideoPlayer videoUrl="https://youtu.be/voFzU9kL4d0?si=5XFU63jExEasejMB" />
+            </td>
+            <td>
+            <VideoPlayer videoUrl="https://youtu.be/4ueFoRnA9-k?si=E7PLmMo6jbht_qsL" />
+            </td>
+          </tr>
+         
+        </table>
+
+      </div>
       {/* Horizontal Line */}
       <hr />
 
@@ -135,7 +182,7 @@ export const Home = () => {
         <b>ContactUs:</b> info@jetutor.in
       </div>
       <div align="right">
-        <h6> version: 1.0.0.7</h6>
+        <h6> version: 1.0.0.8</h6>
       </div>
     </>
   );
