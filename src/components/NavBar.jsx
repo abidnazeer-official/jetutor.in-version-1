@@ -7,7 +7,7 @@ export const NavBar = () => {
 
   return (
     <nav>
-      <table cellPadding={12} width={250}>
+      <table cellPadding={12} width={550}>
         <tr>
           <td>
             <div>
@@ -20,11 +20,6 @@ export const NavBar = () => {
                 <Link to={"/"}><h4>Home</h4> </Link>
             </div>
           </td>
-          {/* <td>
-            <div>
-              <Link to={"/"}><h4>Home</h4> </Link>
-            </div>
-          </td> */}
           <td>
             <div>
               <Link to={"/MRS"}><h4>Monday Results Day [History]</h4></Link>
@@ -32,7 +27,7 @@ export const NavBar = () => {
           </td>
           <td>
             <div>
-              <Link to={"/CurrentMondayResults"}><h4>Current Monday Results<div>18-11-24</div></h4></Link>
+              <Link to={"/CurrentMondayResults"}><h4>Current Monday Results <br/>09-12-24</h4></Link>
             </div>
           </td>
           <td>

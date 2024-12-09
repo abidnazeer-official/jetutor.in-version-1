@@ -53,6 +53,8 @@ export const MRS = () => {
             <td><Link to="/MRD141024">14-10-24</Link></td>
             {/* column-7 */}
             <td><Link to="MRD111124">11-11-24</Link></td>
+            {/* column-8 */}
+            <td><Link to="MRD091224">09-12-24</Link></td>
           </tr>
 
           {/* row-3 */}

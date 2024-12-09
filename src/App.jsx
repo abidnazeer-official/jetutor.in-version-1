@@ -38,6 +38,7 @@ import { MSearchedQ } from "./components/MSearchedQ";
 import { CoreJavaQ } from "./components/CoreJavaQ";
 import { AdvancedJavaQ } from "./components/AdvancedJavaQ";
 import { MRD021224 } from "./components/MRD021224";
+import { MRD091224 } from "./components/MRD091224";
 
 
 const App = () => {
@@ -84,6 +85,7 @@ const App = () => {
           <Route path="/CoreJavaQ" element={<CoreJavaQ/>}/>
           <Route path="/AdvancedJavaQ" element={<AdvancedJavaQ/>}/>
           <Route path="/MRD021224" element={<MRD021224/>}/>
+          <Route path="/MRS/MRD091224" element={<MRD091224/>}/>
         </Routes>
       </div>
       </>

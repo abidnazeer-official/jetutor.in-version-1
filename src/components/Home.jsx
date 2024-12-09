@@ -25,13 +25,13 @@ export const Home = () => {
           </em>
         </p>
         <h1>
-          Monday Results Day [02-12-24]
+          Monday Results Day [09-12-24]
           <p style={{ color: "blue" }}>Status: Active</p>
         </h1>
       </div>
       <div align="center">
         <img
-          src="https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2Findex.html%2Fimages%2FActive%20Learner's%20Ranking%2FCurrent%20Week%20Ranking%2F02-12-24%20Homepage%20Ranking.jpeg?alt=media&token=e2994ae1-87e2-472e-828c-d0f7614d104e"
+          src="https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2Findex.html%2Fimages%2FActive%20Learner's%20Ranking%2FCurrent%20Week%20Ranking%2FJetutor%20Version%201.0.0.9.jpg?alt=media&token=7f3ee18e-7e37-47e2-a49a-0e319ad97d64"
           alt="Check your Internet connection!"
           height={450}
           width={800}
@@ -81,6 +81,7 @@ export const Home = () => {
           <tr style={{display: "flex", gap: "350px"}}>
             <td><h3>Lecture-4</h3></td>
             <td><h3>Lecture-5</h3></td>
+            <td><h3>Lecture-6</h3></td>
           </tr>
           <tr style={{display: "flex", gap: "100px"}}>
             <td>
@@ -89,8 +90,58 @@ export const Home = () => {
             <td>
             <VideoPlayer videoUrl="https://youtu.be/4ueFoRnA9-k?si=E7PLmMo6jbht_qsL" />
             </td>
+            <td>
+            <VideoPlayer videoUrl="https://youtu.be/Rq_uaosqKhk?si=HB1-DMT1eRxhThAp" />
+            </td>
           </tr>
-         
+          <tr style={{display: "flex", gap: "350px"}}>
+            <td><h3>Lecture-7</h3></td>
+            <td><h3>Lecture-8</h3></td>
+            <td><h3>Lecture-9</h3></td>
+          </tr>
+          <tr style={{display: "flex", gap: "100px"}}>
+            <td>
+            <VideoPlayer videoUrl="https://youtu.be/sSD8dbwNB7o?si=YVw63t99L-X6XXhn" />
+            </td>
+            <td>
+            <VideoPlayer videoUrl="https://youtu.be/zdUtZWF533M?si=_nIVwZEtRJ_3dX-H" />
+            </td>
+            <td>
+            <VideoPlayer videoUrl="https://youtu.be/h1b-9WUIaIk?si=MTsNM-rYB3rFMcRh" />
+            </td>
+          </tr>
+          <tr style={{display: "flex", gap: "350px"}}>
+            <td><h3>Lecture-10</h3></td>
+            <td><h3>Lecture-11</h3></td>
+            <td><h3>Lecture-12</h3></td>
+          </tr>
+          <tr style={{display: "flex", gap: "100px"}}>
+            <td>
+            <VideoPlayer videoUrl="https://youtu.be/DLfA1op84Ls?si=fTDipBpFDctCYrtp" />
+            </td>
+            <td>
+            <VideoPlayer videoUrl="https://youtu.be/NjP0ZRnXLC4?si=V6XCl7MrzPqHRj2o" />
+            </td>
+            <td>
+            <VideoPlayer videoUrl="https://youtu.be/LfZuRQmaRRU?si=epspAzhRHxV-x_Tc" />
+            </td>
+          </tr>
+          <tr style={{display: "flex", gap: "350px"}}>
+            <td><h3>Lecture-13</h3></td>
+            <td><h3>Lecture-14</h3></td>
+            <td><h3>Lecture-15</h3></td>
+          </tr>
+          <tr style={{display: "flex", gap: "100px"}}>
+            <td>
+            <VideoPlayer videoUrl="https://youtu.be/X2wI3XZUq9Y?si=ptAP7T20YTrgQKQ0" />
+            </td>
+            <td>
+            <VideoPlayer videoUrl="https://youtu.be/Mhv3fG_VUDo?si=pa19KbxOuXt3ARLb" />
+            </td>
+            <td>
+            <VideoPlayer videoUrl="https://youtu.be/bUldJ2xvqLo?si=oKoIwYNhj9qlRcCD" />
+            </td>
+          </tr>
         </table>
 
       </div>
@@ -179,10 +230,10 @@ export const Home = () => {
       </div>
 
       <div align="center">
-        <b>ContactUs:</b> info@jetutor.in
+        <b>ContactUs:</b> support@jetutor.in
       </div>
       <div align="right">
-        <h6> version: 1.0.0.8</h6>
+        <h6> version: 1.0.0.9</h6>
       </div>
     </>
   );
