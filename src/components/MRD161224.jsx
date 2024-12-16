@@ -1,6 +1,6 @@
 import React from "react";
 
-export const CurrentMondayResults = () => {
+export const MRD161224 = () => {
   const imgUrlMRD161224_1 =
     "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2FDecember%202024%2F16-12-24%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20241216_173142_0000.png?alt=media&token=539e6478-50c5-44bc-87d9-0a9878bfeea8";
   const imgUrlMRD161224_2 =

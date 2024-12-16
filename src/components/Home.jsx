@@ -5,8 +5,10 @@ import VideoPlayer from "./VideoPlayer";
 export const Home = () => {
   const imageUrlContactInfo =
     "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2Findex.html%2Fimages%2FActive%20Learner's%20Ranking%2FTop%20image%20for%20all%2FJava%20Expert%20Tutor_20240909_065344_0000.png?alt=media&token=ba7003cd-6921-4768-888a-98793564bc37";
-  return (
+  
+    return (
     <>
+
       <div>Home</div>
 
       <div align="center">
@@ -25,13 +27,14 @@ export const Home = () => {
           </em>
         </p>
         <h1>
-          Monday Results Day [09-12-24]
+          Monday Results Day [16-12-24]
           <p style={{ color: "blue" }}>Status: Active</p>
         </h1>
       </div>
       <div align="center">
         <img
-          src="https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2Findex.html%2Fimages%2FActive%20Learner's%20Ranking%2FCurrent%20Week%20Ranking%2FJetutor%20Version%201.0.0.9.jpg?alt=media&token=7f3ee18e-7e37-47e2-a49a-0e319ad97d64"
+        //Current Week Ranking
+          src="https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2Findex.html%2Fimages%2FActive%20Learner's%20Ranking%2FCurrent%20Week%20Ranking%2FJetutor%20Version%201.0.0.10.jpeg?alt=media&token=c70d18f8-3ca7-4321-a7be-c3fa64dbc729"
           alt="Check your Internet connection!"
           height={450}
           width={800}
@@ -55,10 +58,11 @@ export const Home = () => {
         <DynamicBoxes />
       </div>
 
+
       {/* Horizontal Line */}
       <hr />
       <div>
-        <h1>Instagram Java Questions Solution</h1>
+        <h1>Java Questions with Solution</h1>
         <table width={500} height={500}>
           <tr style={{display: "flex", gap: "350px"}}>
             <td><h3>Lecture-1</h3></td>
@@ -143,8 +147,9 @@ export const Home = () => {
             </td>
           </tr>
         </table>
-
       </div>
+     
+    
       {/* Horizontal Line */}
       <hr />
 
@@ -233,7 +238,7 @@ export const Home = () => {
         <b>ContactUs:</b> support@jetutor.in
       </div>
       <div align="right">
-        <h6> version: 1.0.0.9</h6>
+        <h6> version: 1.0.0.10</h6>
       </div>
     </>
   );
