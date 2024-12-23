@@ -40,6 +40,7 @@ import { AdvancedJavaQ } from "./components/AdvancedJavaQ";
 import { MRD021224 } from "./components/MRD021224";
 import { MRD091224 } from "./components/MRD091224";
 import { MRD161224 } from "./components/MRD161224";
+import { MRD231224 } from "./components/2024/December/MRD231224";
 
 const App = () => {
   
@@ -87,6 +88,7 @@ const App = () => {
           <Route path="/MRD021224" element={<MRD021224/>}/>
           <Route path="/MRS/MRD091224" element={<MRD091224/>}/>
           <Route path="/MRD161224" element={<MRD161224/>}/>
+          <Route path="/MRD231224" element={<MRD231224/>}/>
           
         
         </Routes>

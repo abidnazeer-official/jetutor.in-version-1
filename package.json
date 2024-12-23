@@ -1,7 +1,7 @@
 {
   "name": "jetutor.in",
   "private": true,
-  "version": "1.0.0.7",
+  "version": "1.0.0.11",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,6 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^6.2.1",
+    "@mui/material": "^6.2.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-player": "^2.16.0",

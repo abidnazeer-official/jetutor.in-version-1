@@ -1,6 +1,6 @@
 import React from "react";
 
-export const CurrentMondayResults = () => {
+export const MRD231224 = () => {
   const imgUrlMRD231224_1 =
     "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2FDecember%202024%2F23-12-24%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20241223_080350_0000.png?alt=media&token=abbc47d5-0abb-4c2c-af63-02a0a181fe69";
   const imgUrlMRD231224_2 =
@@ -11,7 +11,6 @@ export const CurrentMondayResults = () => {
     "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2FDecember%202024%2F23-12-24%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20241223_080350_0003.png?alt=media&token=300f4be5-d750-4a4f-ab21-c4e653490f52";
   const imgUrlMRD231224_5 =
     "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2FDecember%202024%2F23-12-24%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20241223_080350_0004.png?alt=media&token=ebc916ef-dfd3-4d32-bde6-fe5f3d1f8536";
-
   return (
     <>
       <div>23 December 2024</div>

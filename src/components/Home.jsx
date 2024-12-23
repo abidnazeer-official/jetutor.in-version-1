@@ -1,245 +1,194 @@
 import React from "react";
+import { Button, Divider } from "@mui/material";
+import {
+  Container,
+  Typography,
+  Grid,
+  Card,
+  CardContent,
+  Box,
+} from "@mui/material";
 import DynamicBoxes from "./DynamicBoxes";
-import VideoPlayer from "./VideoPlayer";
 
 export const Home = () => {
   const imageUrlContactInfo =
     "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2Findex.html%2Fimages%2FActive%20Learner's%20Ranking%2FTop%20image%20for%20all%2FJava%20Expert%20Tutor_20240909_065344_0000.png?alt=media&token=ba7003cd-6921-4768-888a-98793564bc37";
-  
-    return (
-    <>
 
-      <div>Home</div>
+  const videoData = [
+    {
+      title:
+        "Downloading and Installing JDK in 2024 || Lecture-9 || Java Full Stack Development || ABID NAZEER",
+      url: "https://youtu.be/-dwnz3EP3fg?si=L0_W_1571nCNrSJN",
+    },
+    {
+      title: "Inheritance in java || Program-10 || Java1000Programs || ABID NAZEER",
+      url: "https://youtu.be/Kxa-r_vl1Q8?si=eO9S7_z_BnG1yjdk",
+    },
+    {
+      title: "Java HashMap and Hashtable || Java Expert Tutor",
+      url: "https://youtu.be/MQyZkKIvb40?si=y7Wc5XD_F6nloniy",
+    },
+  ];
 
-      <div align="center">
-        <h1>Welcome to Java Expert Tutor</h1>
-      </div>
-      <div align="center">
-        <h3>Unlock the Power of Java —> Start Your Coding Journey Today</h3>
-      </div>
+  return (
+    <Container maxWidth="lg" style={{ padding: "20px" }}>
+      {/* Welcome Section */}
+      <Box mt={4} textAlign="center">
+        <Typography variant="h4" gutterBottom>
+          Welcome to Java Expert Tutor
+        </Typography>
+        <Typography variant="body1" color="textSecondary">
+          Unlock the Power of Java — Start Your Coding Journey Today
+        </Typography>
+      </Box>
 
-      <hr />
+      <hr style={{ margin: "40px 0" }} />
 
-      <div align="center">
-        <p style={{ color: "red" }}>
-          <em>
-            <h2>Instagram jetutor.in Topper’s of the Last Week </h2>
-          </em>
-        </p>
-        <h1>
-          Monday Results Day [16-12-24]
-          <p style={{ color: "blue" }}>Status: Active</p>
-        </h1>
-      </div>
-      <div align="center">
-        <img
-        //Current Week Ranking
-          src="https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2Findex.html%2Fimages%2FActive%20Learner's%20Ranking%2FCurrent%20Week%20Ranking%2FJetutor%20Version%201.0.0.10.jpeg?alt=media&token=c70d18f8-3ca7-4321-a7be-c3fa64dbc729"
-          alt="Check your Internet connection!"
-          height={450}
-          width={800}
-        />
-      </div>
-      <br />
-      <br />
-      <div align="center">
-        <p>
+      {/* Instagram Toppers */}
+      <Box textAlign="center">
+        <Typography variant="h5" color="primary" gutterBottom>
+          Instagram jetutor.in Toppers of the Last Week
+        </Typography>
+        <Typography variant="body1">
+          Monday Results Day [23-12-24] <br />
+          <span style={{ color: "blue" }}>Status: Active</span>
+        </Typography>
+        <Box my={2}>
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2Findex.html%2Fimages%2FActive%20Learner's%20Ranking%2FCurrent%20Week%20Ranking%2FJetutor%20Version%201.0.0.12.png?alt=media&token=af6d3fb7-f6a6-4115-8727-f69ec8b04fbb"
+            alt="Current Week Ranking"
+            style={{ maxWidth: "100%", borderRadius: "8px" }}
+          />
+        </Box>
+        <Typography color="textSecondary">
           <b>Note:</b> Rank will be automatically updated next Monday.
-        </p>
-      </div>
+        </Typography>
+      </Box>
 
-      <br />
-      <hr />
+      <hr style={{ margin: "40px 0" }} />
 
-      {/* <Router>
-        {/* Dynamic Boxes */}
-      <div>
-        <h1>Java Interview Preparation</h1>
+      {/* Java Interview Preparation */}
+      <Box>
+        <Typography variant="h5" gutterBottom>
+          Java Interview Preparation
+        </Typography>
         <DynamicBoxes />
-      </div>
+      </Box>
 
+      <hr style={{ margin: "40px 0" }} />
 
-      {/* Horizontal Line */}
-      <hr />
-      <div>
-        <h1>Java Questions with Solution</h1>
-        <table width={500} height={500}>
-          <tr style={{display: "flex", gap: "350px"}}>
-            <td><h3>Lecture-1</h3></td>
-            <td><h3>Lecture-2</h3></td>
-            <td><h3>Lecture-3</h3></td>
-          </tr>
-          <tr style={{display: "flex", gap: "100px"}}>
-            <td>
-              <VideoPlayer videoUrl="https://youtu.be/chjo4rHhUxQ?si=0Fd4Mx8HYaTq-HSo" />
-            </td>
-            <td>
-              <VideoPlayer videoUrl="https://youtu.be/RYPl-I1MesE?si=ZtQft5NaS0e_GTcv" />
-            </td>
-            <td>
-            <VideoPlayer videoUrl="https://youtu.be/lW_vqoOxu4E?si=wfaCgL-FdpK1mwIX" />
-            </td>
-          </tr>
+      {/* Video Lectures */}
+      <Box>
+        <Typography variant="h5" gutterBottom>
+          Java Questions with Solutions
+        </Typography>
+        <Grid container spacing={2}>
+          {videoData.map((video, index) => (
+            <Grid item xs={12} sm={6} md={4} key={index}>
+              <Card>
+                <Card>
+                  <div style={{ position: "relative", paddingTop: "56.25%" }}>
+                    <iframe
+                      src={`https://www.youtube.com/embed/${
+                        new URL(video.url).searchParams.get("v") ||
+                        video.url.split("/").pop()
+                      }`}
+                      title={video.title}
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                      style={{
+                        position: "absolute",
+                        top: 0,
+                        left: 0,
+                        width: "100%",
+                        height: "100%",
+                        border: "none",
+                      }}
+                    ></iframe>
+                  </div>
+                  {/* <CardContent>
+                    <Typography variant="h6" align="center">
+                      {video.title}
+                    </Typography>
+                  </CardContent> */}
+                </Card>
 
+                <CardContent>
+                  <Typography variant="body1" align="center">
+                    {video.title}
+                  </Typography>
+                </CardContent>
+              </Card>
+            </Grid>
+          ))}
+        </Grid>
+      </Box>
 
-          <tr style={{display: "flex", gap: "350px"}}>
-            <td><h3>Lecture-4</h3></td>
-            <td><h3>Lecture-5</h3></td>
-            <td><h3>Lecture-6</h3></td>
-          </tr>
-          <tr style={{display: "flex", gap: "100px"}}>
-            <td>
-            <VideoPlayer videoUrl="https://youtu.be/voFzU9kL4d0?si=5XFU63jExEasejMB" />
-            </td>
-            <td>
-            <VideoPlayer videoUrl="https://youtu.be/4ueFoRnA9-k?si=E7PLmMo6jbht_qsL" />
-            </td>
-            <td>
-            <VideoPlayer videoUrl="https://youtu.be/Rq_uaosqKhk?si=HB1-DMT1eRxhThAp" />
-            </td>
-          </tr>
-          <tr style={{display: "flex", gap: "350px"}}>
-            <td><h3>Lecture-7</h3></td>
-            <td><h3>Lecture-8</h3></td>
-            <td><h3>Lecture-9</h3></td>
-          </tr>
-          <tr style={{display: "flex", gap: "100px"}}>
-            <td>
-            <VideoPlayer videoUrl="https://youtu.be/sSD8dbwNB7o?si=YVw63t99L-X6XXhn" />
-            </td>
-            <td>
-            <VideoPlayer videoUrl="https://youtu.be/zdUtZWF533M?si=_nIVwZEtRJ_3dX-H" />
-            </td>
-            <td>
-            <VideoPlayer videoUrl="https://youtu.be/h1b-9WUIaIk?si=MTsNM-rYB3rFMcRh" />
-            </td>
-          </tr>
-          <tr style={{display: "flex", gap: "350px"}}>
-            <td><h3>Lecture-10</h3></td>
-            <td><h3>Lecture-11</h3></td>
-            <td><h3>Lecture-12</h3></td>
-          </tr>
-          <tr style={{display: "flex", gap: "100px"}}>
-            <td>
-            <VideoPlayer videoUrl="https://youtu.be/DLfA1op84Ls?si=fTDipBpFDctCYrtp" />
-            </td>
-            <td>
-            <VideoPlayer videoUrl="https://youtu.be/NjP0ZRnXLC4?si=V6XCl7MrzPqHRj2o" />
-            </td>
-            <td>
-            <VideoPlayer videoUrl="https://youtu.be/LfZuRQmaRRU?si=epspAzhRHxV-x_Tc" />
-            </td>
-          </tr>
-          <tr style={{display: "flex", gap: "350px"}}>
-            <td><h3>Lecture-13</h3></td>
-            <td><h3>Lecture-14</h3></td>
-            <td><h3>Lecture-15</h3></td>
-          </tr>
-          <tr style={{display: "flex", gap: "100px"}}>
-            <td>
-            <VideoPlayer videoUrl="https://youtu.be/X2wI3XZUq9Y?si=ptAP7T20YTrgQKQ0" />
-            </td>
-            <td>
-            <VideoPlayer videoUrl="https://youtu.be/Mhv3fG_VUDo?si=pa19KbxOuXt3ARLb" />
-            </td>
-            <td>
-            <VideoPlayer videoUrl="https://youtu.be/bUldJ2xvqLo?si=oKoIwYNhj9qlRcCD" />
-            </td>
-          </tr>
-        </table>
-      </div>
-     
-    
-      {/* Horizontal Line */}
-      <hr />
+      <hr style={{ margin: "40px 0" }} />
 
-      <div align="center">
-        <h3>Why Java ?</h3>
-        <p>
-          Java is everywhere! <br />
-          From Android apps to enterprise systems, from web applications to
-          games —> Java powers some of the most critical technology of our time.
-          <br /> Learn this versatile and robust language and unlock the key to
-          infinite career opportunities, no matter your background or
-          aspirations.
-        </p>
-      </div>
+      {/* Why Java Section */}
+      {/* <Box textAlign="center">
+        <Typography variant="h5" gutterBottom>
+          Why Java?
+        </Typography>
+        <Typography color="textSecondary">
+          Java is everywhere! From Android apps to enterprise systems, from web
+          applications to games — Java powers some of the most critical
+          technology of our time.
+        </Typography>
+      </Box> */}
 
-      <div align="center">
-        <h3>Begin Your Java Journey:</h3>
-        <p>
-          <b>Learn by Doing:</b> Hands-on coding challenges that simulate
-          real-world problems. <br />
-          <b>Career Focused:</b> Master the skills employers want. From core
-          Java to advanced frameworks.
-          <br /> <b>Community Support:</b> Get help from a vibrant, experienced
-          community of developers. <br />
-          <b>Always Up-to-Date:</b> Stay ahead of the curve with the latest Java
-          features and updates.
-        </p>
-      </div>
+       {/* Why Java */}
+       <Box textAlign="center" sx={{ marginY: 4 }}>
+        <Typography variant="h4" gutterBottom>
+          Why Java?
+        </Typography>
+        <Typography variant="body1">
+          Java is everywhere! From Android apps to enterprise systems, from web
+          applications to games → Java powers some of the most critical
+          technology of our time. Learn this versatile and robust language and
+          unlock the key to infinite career opportunities, no matter your
+          background or aspirations.
+        </Typography>
+      </Box>
 
-      <div align="center">
-        <h3>What Can You Build with Java?</h3>
-        <p>
-          <b>Android Apps:</b> Build mobile applications with ease. Web Apps:
-          Create robust, scalable backend systems.
-          <br />
-          <b>Enterprise Solutions:</b> Develop systems that power global
-          businesses.
-          <br />
-          <b>AI & Machine Learning:</b> Tap into the world of AI with powerful
-          Java libraries.
-        </p>
-      </div>
+      <Divider />
 
-      <div align="center">
-        <h3>Ready to Code?</h3>
-        <p>
-          Kickstart your Java journey with <b>interactive lessons</b>,{" "}
-          <b>coding challenges</b>, and <b>projects</b> designed for every skill
-          level — from beginners to advanced developers. Start today and become
-          a Java pro in no time.
-        </p>
-      </div>
+      {/* Call to Action */}
+      <Box textAlign="center" sx={{ marginY: 4 }}>
+        <Typography variant="h4" gutterBottom>
+          Ready to Code?
+        </Typography>
+        <Typography variant="body1" sx={{ marginBottom: 2 }}>
+          Kickstart your Java journey with <strong>interactive lessons</strong>,{" "}
+          <strong>coding challenges</strong>, and <strong>projects</strong>{" "}
+          designed for every skill level — from beginners to advanced
+          developers. Start today and become a Java pro in no time.
+        </Typography>
+        <Button variant="contained" color="primary" sx={{ margin: 1 }}>
+          Start Learning Java
+        </Button>
+        <Button variant="outlined" color="secondary" sx={{ margin: 1 }}>
+          Explore Our Tutorials
+        </Button>
+      </Box>
 
-      <div align="center">
-        <h3>Get Started for Free!</h3>
-        <p>
-          Join thousands of Java learners today. Whether you're starting from
-          scratch or leveling up, we've got the resources and tools you need to
-          succeed.
-          <br />
-          <br />
-          <b>
-            [Start Learning Java] [Explore Our Tutorials] [Join Our Community]
-          </b>
-          <br />
-          <br />
-          <br />
-          <b>
-            Java Expert Tutor — Empowering Developers, One Line of Code at a
-            Time
-          </b>
-        </p>
-      </div>
-
-      <hr />
-      <div align="center">
+      {/* Footer */}
+      <Box
+        mt={4}
+        textAlign="center"
+        style={{ backgroundColor: "#34495e", padding: "20px", color: "white" }}
+      >
         <img
           src={imageUrlContactInfo}
-          alt="Failed to load, plrease refresh the page"
-          height={100}
-          width={100}
+          alt="Contact Info"
+          style={{ height: "80px", borderRadius: "50%" }}
         />
-      </div>
-
-      <div align="center">
-        <b>ContactUs:</b> support@jetutor.in
-      </div>
-      <div align="right">
-        <h6> version: 1.0.0.10</h6>
-      </div>
-    </>
+        <Typography variant="body2" style={{ marginTop: "10px" }}>
+          <b>Contact Us:</b> support@jetutor.in
+        </Typography>
+        <Typography variant="caption">Version: 1.0.0.12</Typography>
+      </Box>
+    </Container>
   );
 };
