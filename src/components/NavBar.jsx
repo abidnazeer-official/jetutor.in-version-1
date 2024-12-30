@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Box, Typography } from "@mui/material";
+import { Box } from "@mui/material";
 
 export const NavBar = () => {
   const jetutorinlogoUrl =
@@ -26,9 +26,7 @@ export const NavBar = () => {
               style={{ borderRadius: "50%", marginRight: "10px" }}
             />
           </Link>
-          <Typography variant="h6" color="white">
-            Jetutor
-          </Typography>
+          
         </Box>
 
         {/* Navigation Links */}
@@ -80,7 +78,7 @@ export const NavBar = () => {
             onMouseOut={(e) => (e.target.style.color = "white")}
           >
             Current Monday Results <br />
-            <span style={{ fontSize: "12px" }}>23-12-24</span>
+            <span style={{ fontSize: "12px" }}>30-12-24</span>
           </Link>
           <Link
             to="/Days100LearningPlan"

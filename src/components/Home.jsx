@@ -9,6 +9,8 @@ import {
   Box,
 } from "@mui/material";
 import DynamicBoxes from "./DynamicBoxes";
+import { Link } from "react-router-dom";
+
 
 export const Home = () => {
   const imageUrlContactInfo =
@@ -50,12 +52,12 @@ export const Home = () => {
           Instagram jetutor.in Toppers of the Last Week
         </Typography>
         <Typography variant="body1">
-          Monday Results Day [23-12-24] <br />
+          Monday Results Day [30-12-24] <br />
           <span style={{ color: "blue" }}>Status: Active</span>
         </Typography>
         <Box my={2}>
           <img
-            src="https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2Findex.html%2Fimages%2FActive%20Learner's%20Ranking%2FCurrent%20Week%20Ranking%2FJetutor%20Version%201.0.0.12.png?alt=media&token=af6d3fb7-f6a6-4115-8727-f69ec8b04fbb"
+            src="https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2Findex.html%2Fimages%2FActive%20Learner's%20Ranking%2FCurrent%20Week%20Ranking%2FJetutor%20website%20version%201.0.0.13.png?alt=media&token=f5db27d4-abba-4cac-b67e-1c4414926add"
             alt="Current Week Ranking"
             style={{ maxWidth: "100%", borderRadius: "8px" }}
           />
@@ -72,6 +74,63 @@ export const Home = () => {
         <Typography variant="h5" gutterBottom>
           Java Interview Preparation
         </Typography>
+        
+        <Link to="/FreshersIQ" style={{
+          display: "inline-block",
+          padding: "10px 20px",
+          backgroundColor: "#007BFF",
+          color: "#fff",
+          textDecoration: "none",
+          borderRadius: "5px",
+          marginBottom: "10px",
+          marginTop: "10px",
+        }}>
+        Java Freshers Interview Questions
+      </Link>
+
+      <Link to="/OneYearExperienceIQ" style={{
+          display: "inline-block",
+          padding: "10px 20px",
+          backgroundColor: "#007BFF",
+          color: "#fff",
+          textDecoration: "none",
+          borderRadius: "5px",
+          marginBottom: "10px",
+          marginTop: "10px",
+          marginLeft: "5px",
+        }}>
+        1 Year Experience Interview Questions
+      </Link>
+
+      <Link to="/TwoYearExperienceIQ" style={{
+          display: "inline-block",
+          padding: "10px 20px",
+          backgroundColor: "#007BFF",
+          color: "#fff",
+          textDecoration: "none",
+          borderRadius: "5px",
+          marginBottom: "10px",
+          marginTop: "10px",
+          marginLeft: "5px",
+        }}>
+        2 Year Experience Interview Questions
+      </Link>
+
+      <Link to="/ThreeYearExperienceIQ" style={{
+          display: "inline-block",
+          padding: "10px 20px",
+          backgroundColor: "#007BFF",
+          color: "#fff",
+          textDecoration: "none",
+          borderRadius: "5px",
+          marginBottom: "10px",
+          marginTop: "10px",
+          marginLeft: "5px",
+        }}>
+        3 Year Experience Interview Questions
+      </Link>
+
+      
         <DynamicBoxes />
       </Box>
 
@@ -187,7 +246,7 @@ export const Home = () => {
         <Typography variant="body2" style={{ marginTop: "10px" }}>
           <b>Contact Us:</b> support@jetutor.in
         </Typography>
-        <Typography variant="caption">Version: 1.0.0.12</Typography>
+        <Typography variant="caption">Version: 1.0.0.13</Typography>
       </Box>
     </Container>
   );

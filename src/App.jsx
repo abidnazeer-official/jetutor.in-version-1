@@ -41,6 +41,12 @@ import { MRD021224 } from "./components/MRD021224";
 import { MRD091224 } from "./components/MRD091224";
 import { MRD161224 } from "./components/MRD161224";
 import { MRD231224 } from "./components/2024/December/MRD231224";
+import { MRD301224 } from "./components/2024/December/MRD301224";
+import FreshersIQ from "./components/javaInterviewPreparation/FreshersIQ";
+import OneYearExperienceIQ from "./components/javaInterviewPreparation/OneYearExperienceIQ";
+import TwoYearExperienceIQ from "./components/javaInterviewPreparation/TwoYearExperienceIQ";
+import ThreeYearExperienceIQ from "./components/javaInterviewPreparation/ThreeYearExperienceIQ";
+
 
 const App = () => {
   
@@ -89,7 +95,12 @@ const App = () => {
           <Route path="/MRS/MRD091224" element={<MRD091224/>}/>
           <Route path="/MRD161224" element={<MRD161224/>}/>
           <Route path="/MRD231224" element={<MRD231224/>}/>
-          
+          <Route path="/FreshersIQ" element={<FreshersIQ/>}/>
+          <Route path="/MRD301224" element={<MRD301224/>}/>
+          <Route path="/OneYearExperienceIQ" element={<OneYearExperienceIQ/>}/>
+          <Route path="/TwoYearExperienceIQ" element={<TwoYearExperienceIQ/>}/>
+          <Route path="/ThreeYearExperienceIQ" element={<ThreeYearExperienceIQ/>}/>
+
         
         </Routes>
       </div>
