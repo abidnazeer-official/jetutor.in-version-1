@@ -1,0 +1,79 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .header {
+    text-align: center;
+    background-color: #3b4f69;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .header h1 {
+    font-size: 2.5em;
+  }
+  
+  .header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  
+  /* Phase and Week Styling */
+  .phase, .week {
+    margin-top: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .phase h2, .week h3 {
+    color: #3b4f69;
+    font-size: 1.8em;
+  }
+  
+  .focus {
+    font-weight: bold;
+    color: #4caf50;
+  }
+  
+  /* Table Styles */
+  .table-container {
+    margin-top: 20px;
+  }
+  
+  .learning-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .learning-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+  }
+  
+  .learning-table td:nth-child(1) {
+    width: 120px;
+    font-weight: bold;
+  }
+  
+  .learning-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .learning-table tr:hover {
+    background-color: #f1f1f1;
+  }
+   

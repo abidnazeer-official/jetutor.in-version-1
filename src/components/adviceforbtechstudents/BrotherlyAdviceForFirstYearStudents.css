@@ -1,0 +1,141 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f8f9fa;
+  color: #333;
+  padding: 20px;
+}
+
+/* Container for the content */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header Section */
+.header {
+  text-align: center;
+  background-color: #28a745;
+  color: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+
+.header p {
+  font-size: 1.3rem;
+  margin-top: 10px;
+}
+
+/* Main Content Sections */
+main {
+  padding: 20px;
+}
+
+/* Individual Section Styles */
+.section {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+  font-size: 1.9rem;
+  color: #28a745;
+  margin-bottom: 10px;
+}
+
+.section ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.section li {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.section ul ul {
+  margin-left: 20px;
+}
+
+.checklist ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.checklist li {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.checklist li::before {
+  content: "✅ ";
+  color: #28a745;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 1.1rem;
+  color: #555;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.footer p {
+  font-weight: 500;
+}
+
+/* Hover Effects for Interactivity */
+h2:hover {
+  color: #218838;
+  transition: color 0.3s ease;
+}
+
+ul li:hover {
+  color: #28a745;
+  transition: color 0.3s ease;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 2.2rem;
+  }
+
+  .header p {
+    font-size: 1.1rem;
+  }
+
+  .section h2 {
+    font-size: 1.6rem;
+  }
+
+  .section li {
+    font-size: 1rem;
+  }
+
+  .footer p {
+    font-size: 1rem;
+  }
+}

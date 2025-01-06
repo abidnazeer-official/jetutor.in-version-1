@@ -46,6 +46,11 @@ import FreshersIQ from "./components/javaInterviewPreparation/FreshersIQ";
 import OneYearExperienceIQ from "./components/javaInterviewPreparation/OneYearExperienceIQ";
 import TwoYearExperienceIQ from "./components/javaInterviewPreparation/TwoYearExperienceIQ";
 import ThreeYearExperienceIQ from "./components/javaInterviewPreparation/ThreeYearExperienceIQ";
+import { MRD060125 } from "./components/2025 Months/January 2025/MRD060125";
+import BrotherlyAdviceForFirstYearStudents from "./components/adviceforbtechstudents/BrotherlyAdviceForFirstYearStudents";
+import BrotherlyAdviceForSecondYearStudents from "./components/adviceforbtechstudents/BrotherlyAdviceForSecondYearStudents";
+import BrotherlyAdviceForThirdYearStudents from "./components/adviceforbtechstudents/BrotherlyAdviceForThirdYearStudents";
+import BrotherlyAdviceForFourthYearStudents from "./components/adviceforbtechstudents/BrotherlyAdviceForFourthYearStudents";
 
 
 const App = () => {
@@ -100,8 +105,12 @@ const App = () => {
           <Route path="/OneYearExperienceIQ" element={<OneYearExperienceIQ/>}/>
           <Route path="/TwoYearExperienceIQ" element={<TwoYearExperienceIQ/>}/>
           <Route path="/ThreeYearExperienceIQ" element={<ThreeYearExperienceIQ/>}/>
+          <Route path="/MRD060125" element={<MRD060125/>}/>
+          <Route path="/BrotherlyAdviceForFirstYearStudents" element={<BrotherlyAdviceForFirstYearStudents/>}/>
+          <Route path="/BrotherlyAdviceForSecondYearStudents" element={<BrotherlyAdviceForSecondYearStudents/>}/>
+          <Route path="/BrotherlyAdviceForThirdYearStudents" element={<BrotherlyAdviceForThirdYearStudents/>}/>
+          <Route path="/BrotherlyAdviceForFourthYearStudents" element={<BrotherlyAdviceForFourthYearStudents/>}/>
 
-        
         </Routes>
       </div>
       </>

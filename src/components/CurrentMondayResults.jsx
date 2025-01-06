@@ -1,87 +1,80 @@
 import React from "react";
 
 export const CurrentMondayResults = () => {
-  const imgUrlMRD301224_1 =
-  "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2FDecember%202024%2F30-12-24%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20241230_042232_0001.png?alt=media&token=1357ef77-9d47-4fdd-92d3-79ee7821eeda";
-const imgUrlMRD301224_2 =
-  "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2FDecember%202024%2F30-12-24%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20241230_042232_0002.png?alt=media&token=6b284619-c264-4657-b5cf-08f7f4770c16";
-const imgUrlMRD301224_3 =
-  "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2FDecember%202024%2F30-12-24%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20241230_042232_0003.png?alt=media&token=6db946a9-e51b-4c71-a5d1-3a9da4c4f801";
-const imgUrlMRD301224_4 =
-  "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2FDecember%202024%2F30-12-24%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20241230_042232_0004.png?alt=media&token=86501855-6564-46b6-b078-c0d56444a959";
-const imgUrlMRD301224_5 =
-  "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2FDecember%202024%2F30-12-24%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20241230_042232_0005.png?alt=media&token=9c87a602-8ac7-404a-a7f5-7c903c0de928";
-const imgUrlMRD301224_6 =
-  "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2FDecember%202024%2F30-12-24%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20241230_042232_0006.png?alt=media&token=d2d4996e-235e-489c-83e4-b52d964346a0";
-const imgUrlMRD231224_7 =
-  "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2FDecember%202024%2F30-12-24%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20241230_042232_0007.png?alt=media&token=7be4b4c1-d6e4-4269-8430-082a9f8565c6";
+  const imgUrlMRD060125_1 =
+    "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2F2025%20%5BNew%20Year%5D%2FJanuary%202025%2F06-01-25%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20250106_122445_0001.png?alt=media&token=222e8b14-17b4-4ec7-b87d-17ed78285e8f";
+  const imgUrlMRD060125_2 =
+    "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2F2025%20%5BNew%20Year%5D%2FJanuary%202025%2F06-01-25%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20250106_122445_0002.png?alt=media&token=2f52c292-8e67-4b8a-9da1-68a9087ee2c9";
+  const imgUrlMRD060125_3 =
+    "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2F2025%20%5BNew%20Year%5D%2FJanuary%202025%2F06-01-25%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20250106_122445_0003.png?alt=media&token=57dde542-761c-4259-af3e-f720f8a7e965";
+  const imgUrlMRD060125_4 =
+    "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2F2025%20%5BNew%20Year%5D%2FJanuary%202025%2F06-01-25%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20250106_122445_0004.png?alt=media&token=3991a4ee-919a-4be8-a98c-dee9825c910c";
+  const imgUrlMRD060125_5 =
+    "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2F2025%20%5BNew%20Year%5D%2FJanuary%202025%2F06-01-25%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20250106_122445_0005.png?alt=media&token=e4e363ba-7d97-49ce-97a0-725ae7dbb786";
+  const imgUrlMRD060125_6 =
+    "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2F2025%20%5BNew%20Year%5D%2FJanuary%202025%2F06-01-25%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20250106_122445_0006.png?alt=media&token=16e61b1c-ed52-4f77-a2a5-c24d7bc21aea";
+  const imgUrlMRD060125_7 =
+    "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2F2025%20%5BNew%20Year%5D%2FJanuary%202025%2F06-01-25%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20250106_122445_0007.png?alt=media&token=0fd44969-cdce-4d5b-82c7-33cd6020e1af";
 
   return (
     <>
-        <div>30 December 2024</div>
-
-<div align="center">
-  <img
-    src={imgUrlMRD301224_1}
-    alt="Failed to load, please check your internet"
-    height={450}
-    width={400}
-  />
-</div>
-
-<div align="center">
-  <img
-    src={imgUrlMRD301224_2}
-    alt="Failed to load, please check your internet"
-    height={450}
-    width={400}
-  />
-</div>
-
-<div align="center">
-  <img
-    src={imgUrlMRD301224_3}
-    alt="Failed to load, please check your internet"
-    height={450}
-    width={400}
-  />
-</div>
-
-<div align="center">
-  <img
-    src={imgUrlMRD301224_4}
-    alt="Failed to load, please check your internet"
-    height={450}
-    width={400}
-  />
-</div>
-
-<div align="center">
-  <img
-    src={imgUrlMRD301224_5}
-    alt="Failed to load, please check your internet"
-    height={450}
-    width={400}
-  />
-</div>
-
-<div align="center">
-  <img
-    src={imgUrlMRD301224_6}
-    alt="Failed to load, please check your internet"
-    height={450}
-    width={400}
-  />
-</div>
-
-<div align="center">
-  <img
-    src={imgUrlMRD231224_7}
-    alt="Failed to load, please check your internet"
-    height={450}
-    width={400}
-  />
-</div>
+      <div>06 January 2025</div>
+      <div align="center">
+        <img
+          src={imgUrlMRD060125_1}
+          alt="Failed to load image, please check your internet!"
+          height={450}
+          width={400}
+        />
+      </div>
+      <div align="center">
+        <img
+          src={imgUrlMRD060125_2}
+          alt="Failed to load image, please check your internet!"
+          height={450}
+          width={400}
+        />
+      </div>
+      <div align="center">
+        <img
+          src={imgUrlMRD060125_3}
+          alt="Failed to load image, please check your internet!"
+          height={450}
+          width={400}
+        />
+      </div>
+      <div align="center">
+        <img
+          src={imgUrlMRD060125_4}
+          alt="Failed to load image, please check your internet!"
+          height={450}
+          width={400}
+        />
+      </div>
+      <div align="center">
+        <img
+          src={imgUrlMRD060125_5}
+          alt="Failed to load image, please check your internet!"
+          height={450}
+          width={400}
+        />
+      </div>
+      <div align="center">
+        <img
+          src={imgUrlMRD060125_6}
+          alt="Failed to load image, please check your internet!"
+          height={450}
+          width={400}
+        />
+      </div>
+      <div align="center">
+        <img
+          src={imgUrlMRD060125_7}
+          alt="Failed to load image, please check your internet!"
+          height={450}
+          width={400}
+        />
+      </div>
     </>
   );
 };

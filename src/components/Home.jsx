@@ -11,7 +11,6 @@ import {
 import DynamicBoxes from "./DynamicBoxes";
 import { Link } from "react-router-dom";
 
-
 export const Home = () => {
   const imageUrlContactInfo =
     "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2Findex.html%2Fimages%2FActive%20Learner's%20Ranking%2FTop%20image%20for%20all%2FJava%20Expert%20Tutor_20240909_065344_0000.png?alt=media&token=ba7003cd-6921-4768-888a-98793564bc37";
@@ -23,7 +22,8 @@ export const Home = () => {
       url: "https://youtu.be/-dwnz3EP3fg?si=L0_W_1571nCNrSJN",
     },
     {
-      title: "Inheritance in java || Program-10 || Java1000Programs || ABID NAZEER",
+      title:
+        "Inheritance in java || Program-10 || Java1000Programs || ABID NAZEER",
       url: "https://youtu.be/Kxa-r_vl1Q8?si=eO9S7_z_BnG1yjdk",
     },
     {
@@ -52,12 +52,13 @@ export const Home = () => {
           Instagram jetutor.in Toppers of the Last Week
         </Typography>
         <Typography variant="body1">
-          Monday Results Day [30-12-24] <br />
+          {/* Change Date Here  */}
+          Monday Results Day [06-01-25] <br />
           <span style={{ color: "blue" }}>Status: Active</span>
         </Typography>
         <Box my={2}>
           <img
-            src="https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2Findex.html%2Fimages%2FActive%20Learner's%20Ranking%2FCurrent%20Week%20Ranking%2FJetutor%20website%20version%201.0.0.13.png?alt=media&token=f5db27d4-abba-4cac-b67e-1c4414926add"
+            src="https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2Findex.html%2Fimages%2FActive%20Learner's%20Ranking%2FCurrent%20Week%20Ranking%2FCurrent%20Week%20Ranking%202025%2FJetutor%20Version%201.0.0.14.jpeg?alt=media&token=5e6208af-ec0e-4c1a-8f89-dab1e88b68fa"
             alt="Current Week Ranking"
             style={{ maxWidth: "100%", borderRadius: "8px" }}
           />
@@ -74,63 +75,74 @@ export const Home = () => {
         <Typography variant="h5" gutterBottom>
           Java Interview Preparation
         </Typography>
-        
-        <Link to="/FreshersIQ" style={{
-          display: "inline-block",
-          padding: "10px 20px",
-          backgroundColor: "#007BFF",
-          color: "#fff",
-          textDecoration: "none",
-          borderRadius: "5px",
-          marginBottom: "10px",
-          marginTop: "10px",
-        }}>
-        Java Freshers Interview Questions
-      </Link>
 
-      <Link to="/OneYearExperienceIQ" style={{
-          display: "inline-block",
-          padding: "10px 20px",
-          backgroundColor: "#007BFF",
-          color: "#fff",
-          textDecoration: "none",
-          borderRadius: "5px",
-          marginBottom: "10px",
-          marginTop: "10px",
-          marginLeft: "5px",
-        }}>
-        1 Year Experience Interview Questions
-      </Link>
+        <Link
+          to="/FreshersIQ"
+          style={{
+            display: "inline-block",
+            padding: "10px 20px",
+            backgroundColor: "#007BFF",
+            color: "#fff",
+            textDecoration: "none",
+            borderRadius: "5px",
+            marginBottom: "10px",
+            marginTop: "10px",
+          }}
+        >
+          Java Freshers Interview Questions
+        </Link>
 
-      <Link to="/TwoYearExperienceIQ" style={{
-          display: "inline-block",
-          padding: "10px 20px",
-          backgroundColor: "#007BFF",
-          color: "#fff",
-          textDecoration: "none",
-          borderRadius: "5px",
-          marginBottom: "10px",
-          marginTop: "10px",
-          marginLeft: "5px",
-        }}>
-        2 Year Experience Interview Questions
-      </Link>
+        <Link
+          to="/OneYearExperienceIQ"
+          style={{
+            display: "inline-block",
+            padding: "10px 20px",
+            backgroundColor: "#007BFF",
+            color: "#fff",
+            textDecoration: "none",
+            borderRadius: "5px",
+            marginBottom: "10px",
+            marginTop: "10px",
+            marginLeft: "5px",
+          }}
+        >
+          1 Year Experience Interview Questions
+        </Link>
 
-      <Link to="/ThreeYearExperienceIQ" style={{
-          display: "inline-block",
-          padding: "10px 20px",
-          backgroundColor: "#007BFF",
-          color: "#fff",
-          textDecoration: "none",
-          borderRadius: "5px",
-          marginBottom: "10px",
-          marginTop: "10px",
-          marginLeft: "5px",
-        }}>
-        3 Year Experience Interview Questions
-      </Link>
+        <Link
+          to="/TwoYearExperienceIQ"
+          style={{
+            display: "inline-block",
+            padding: "10px 20px",
+            backgroundColor: "#007BFF",
+            color: "#fff",
+            textDecoration: "none",
+            borderRadius: "5px",
+            marginBottom: "10px",
+            marginTop: "10px",
+            marginLeft: "5px",
+          }}
+        >
+          2 Year Experience Interview Questions
+        </Link>
 
-      
+        <Link
+          to="/ThreeYearExperienceIQ"
+          style={{
+            display: "inline-block",
+            padding: "10px 20px",
+            backgroundColor: "#007BFF",
+            color: "#fff",
+            textDecoration: "none",
+            borderRadius: "5px",
+            marginBottom: "10px",
+            marginTop: "10px",
+            marginLeft: "5px",
+          }}
+        >
+          3 Year Experience Interview Questions
+        </Link>
+
         <DynamicBoxes />
       </Box>
 
@@ -165,11 +177,6 @@ export const Home = () => {
                       }}
                     ></iframe>
                   </div>
-                  {/* <CardContent>
-                    <Typography variant="h6" align="center">
-                      {video.title}
-                    </Typography>
-                  </CardContent> */}
                 </Card>
 
                 <CardContent>
@@ -184,22 +191,82 @@ export const Home = () => {
       </Box>
 
       <hr style={{ margin: "40px 0" }} />
-
-      {/* Why Java Section */}
-      {/* <Box textAlign="center">
+      <Box>
         <Typography variant="h5" gutterBottom>
-          Why Java?
+          Advice to B-Tech Students
         </Typography>
-        <Typography color="textSecondary">
-          Java is everywhere! From Android apps to enterprise systems, from web
-          applications to games — Java powers some of the most critical
-          technology of our time.
-        </Typography>
-      </Box> */}
 
-       {/* Why Java */}
-       <Box textAlign="center" sx={{ marginY: 4 }}>
-        <Typography variant="h4" gutterBottom>
+        <Link
+          to="/BrotherlyAdviceForFirstYearStudents"
+          style={{
+            display: "inline-block",
+            padding: "10px 20px",
+            backgroundColor: "#007BFF",
+            color: "#fff",
+            textDecoration: "none",
+            borderRadius: "5px",
+            marginBottom: "10px",
+            marginTop: "10px",
+          }}
+        >
+          Brotherly Advice For 1st Year Students
+        </Link>
+
+        <Link
+          to="/BrotherlyAdviceForSecondYearStudents"
+          style={{
+            display: "inline-block",
+            padding: "10px 20px",
+            backgroundColor: "#007BFF",
+            color: "#fff",
+            textDecoration: "none",
+            borderRadius: "5px",
+            marginBottom: "10px",
+            marginTop: "10px",
+            marginLeft: "5px",
+          }}
+        >
+          Brotherly Advice For 2nd Year Students{" "}
+        </Link>
+
+        <Link
+          to="/BrotherlyAdviceForThirdYearStudents"
+          style={{
+            display: "inline-block",
+            padding: "10px 20px",
+            backgroundColor: "#007BFF",
+            color: "#fff",
+            textDecoration: "none",
+            borderRadius: "5px",
+            marginBottom: "10px",
+            marginTop: "10px",
+            marginLeft: "5px",
+          }}
+        >
+              Brotherly Advice For 3rd Year Students        </Link>
+
+              <Link
+          to="/BrotherlyAdviceForFourthYearStudents"
+          style={{
+            display: "inline-block",
+            padding: "10px 20px",
+            backgroundColor: "#007BFF",
+            color: "#fff",
+            textDecoration: "none",
+            borderRadius: "5px",
+            marginBottom: "10px",
+            marginTop: "10px",
+            marginLeft: "5px",
+          }}
+        >
+              Brotherly Advice For 4th Year Students        </Link>
+      </Box>
+
+      <hr style={{ margin: "40px 0" }} />
+
+      {/* Why Java */}
+      <Box textAlign="center" sx={{ marginY: 4 }}>
+        <Typography variant="h5" gutterBottom>
           Why Java?
         </Typography>
         <Typography variant="body1">
@@ -246,7 +313,7 @@ export const Home = () => {
         <Typography variant="body2" style={{ marginTop: "10px" }}>
           <b>Contact Us:</b> support@jetutor.in
         </Typography>
-        <Typography variant="caption">Version: 1.0.0.13</Typography>
+        <Typography variant="caption">Version: 1.0.0.14</Typography>
       </Box>
     </Container>
   );

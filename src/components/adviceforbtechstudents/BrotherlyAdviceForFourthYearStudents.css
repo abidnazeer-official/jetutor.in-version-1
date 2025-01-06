@@ -1,0 +1,109 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .header {
+    text-align: center;
+    background-color: #17a2b8;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+  }
+  
+  .header p {
+    font-size: 1.2rem;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .section {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #17a2b8;
+  }
+  
+  .section ul {
+    list-style-type: none;
+    margin-left: 20px;
+  }
+  
+  .section li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .checklist ul {
+    list-style-type: none;
+    margin-left: 20px;
+  }
+  
+  .checklist li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+  
+  .checklist li::before {
+    content: "";
+    color: #17a2b8;
+  }
+  
+  .final-words {
+    background-color: #fff3cd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .final-words h2 {
+    font-size: 1.8rem;
+    color: #856404;
+  }
+  
+  .final-words p {
+    font-size: 1.1rem;
+    color: #6c757d;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1rem;
+    color: #777;
+  }
+  
+  /* Smooth scroll to top */
+  html {
+    scroll-behavior: smooth;
+  }
+  
