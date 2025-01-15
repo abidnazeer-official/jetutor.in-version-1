@@ -1,9 +1,7 @@
 nav {
     background-color: aliceblue;
-    padding: 6px 16px;
-    
+    padding: 6px 16px; 
 }
-
 nav a{
     margin-right: 16px;
     margin-left: 16px;

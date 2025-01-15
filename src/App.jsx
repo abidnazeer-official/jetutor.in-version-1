@@ -34,9 +34,9 @@ import { MRD041124 } from "./components/MRD041124";
 import { MRD111124 } from "./components/MRD111124";
 import { MRD181124 } from "./components/MRD181124";
 import { MRD251124 } from "./components/MRD251124";
-import { MSearchedQ } from "./components/MSearchedQ";
-import { CoreJavaQ } from "./components/CoreJavaQ";
-import { AdvancedJavaQ } from "./components/AdvancedJavaQ";
+import { MSearchedQ } from "./components/mostsearchedquestions/MSearchedQ";
+import { CoreJavaQ } from "./components/mostsearchedquestions/CoreJavaQ";
+import { AdvancedJavaQ } from "./components/mostsearchedquestions/AdvancedJavaQ";
 import { MRD021224 } from "./components/MRD021224";
 import { MRD091224 } from "./components/MRD091224";
 import { MRD161224 } from "./components/MRD161224";
@@ -51,6 +51,7 @@ import BrotherlyAdviceForFirstYearStudents from "./components/adviceforbtechstud
 import BrotherlyAdviceForSecondYearStudents from "./components/adviceforbtechstudents/BrotherlyAdviceForSecondYearStudents";
 import BrotherlyAdviceForThirdYearStudents from "./components/adviceforbtechstudents/BrotherlyAdviceForThirdYearStudents";
 import BrotherlyAdviceForFourthYearStudents from "./components/adviceforbtechstudents/BrotherlyAdviceForFourthYearStudents";
+import { MRD130125 } from "./components/2025 Months/January 2025/MRD130125";
 
 
 const App = () => {
@@ -110,6 +111,7 @@ const App = () => {
           <Route path="/BrotherlyAdviceForSecondYearStudents" element={<BrotherlyAdviceForSecondYearStudents/>}/>
           <Route path="/BrotherlyAdviceForThirdYearStudents" element={<BrotherlyAdviceForThirdYearStudents/>}/>
           <Route path="/BrotherlyAdviceForFourthYearStudents" element={<BrotherlyAdviceForFourthYearStudents/>}/>
+          <Route path="/MRD130125" element={<MRD130125/>}/>     
 
         </Routes>
       </div>

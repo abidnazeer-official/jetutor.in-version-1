@@ -52,13 +52,15 @@ export const Home = () => {
           Instagram jetutor.in Toppers of the Last Week
         </Typography>
         <Typography variant="body1">
+
+
           {/* Change Date Here  */}
-          Monday Results Day [06-01-25] <br />
+          Monday Results Day [13-01-25] <br />
           <span style={{ color: "blue" }}>Status: Active</span>
         </Typography>
         <Box my={2}>
           <img
-            src="https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2Findex.html%2Fimages%2FActive%20Learner's%20Ranking%2FCurrent%20Week%20Ranking%2FCurrent%20Week%20Ranking%202025%2FJetutor%20Version%201.0.0.14.jpeg?alt=media&token=5e6208af-ec0e-4c1a-8f89-dab1e88b68fa"
+            src="https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2Findex.html%2Fimages%2FActive%20Learner's%20Ranking%2FCurrent%20Week%20Ranking%2FCurrent%20Week%20Ranking%202025%2FJanuary%202025%2FJetutor_Version%201.0.0.15.png?alt=media&token=681476ce-420e-4bd9-b6e7-ba11483a97d4"
             alt="Current Week Ranking"
             style={{ maxWidth: "100%", borderRadius: "8px" }}
           />
@@ -108,7 +110,6 @@ export const Home = () => {
         >
           1 Year Experience Interview Questions
         </Link>
-
         <Link
           to="/TwoYearExperienceIQ"
           style={{
@@ -125,7 +126,6 @@ export const Home = () => {
         >
           2 Year Experience Interview Questions
         </Link>
-
         <Link
           to="/ThreeYearExperienceIQ"
           style={{
@@ -259,7 +259,7 @@ export const Home = () => {
             marginLeft: "5px",
           }}
         >
-              Brotherly Advice For 4th Year Students        </Link>
+              Brotherly Advice For 4th Year Students</Link>
       </Box>
 
       <hr style={{ margin: "40px 0" }} />
@@ -313,7 +313,7 @@ export const Home = () => {
         <Typography variant="body2" style={{ marginTop: "10px" }}>
           <b>Contact Us:</b> support@jetutor.in
         </Typography>
-        <Typography variant="caption">Version: 1.0.0.14</Typography>
+        <Typography variant="caption">Version: 1.0.0.15</Typography>
       </Box>
     </Container>
   );

@@ -487,7 +487,7 @@ export const Days100JavaLearningPlan = () => {
                 <td>Dockerizing Spring Boot Applications</td>
               </tr>
               <tr>
-                <td><b>Day 86-88:</b></td>
+                <td><b>Day 86-90:</b></td>
                 <td>Final Project: E-commerce Web Application (Microservices-based)</td>
               </tr>
             </tbody>

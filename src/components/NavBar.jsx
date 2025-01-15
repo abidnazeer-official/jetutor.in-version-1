@@ -12,8 +12,7 @@ export const NavBar = () => {
         display="flex"
         alignItems="center"
         justifyContent="space-between"
-        flexWrap="wrap"
-        style={{ maxWidth: "1000px", margin: "0 auto" }}
+        style={{ maxWidth: "1200px", margin: "0 auto" }}
       >
         {/* Logo Section */}
         <Box display="flex" alignItems="center">
@@ -26,17 +25,10 @@ export const NavBar = () => {
               style={{ borderRadius: "50%", marginRight: "10px" }}
             />
           </Link>
-          
         </Box>
 
         {/* Navigation Links */}
-        <Box
-          display="flex"
-          alignItems="center"
-          justifyContent="space-between"
-          flexWrap="wrap"
-          style={{ gap: "15px" }}
-        >
+        <Box display="flex" alignItems="center" style={{ gap: "20px" }}>
           <Link
             to="/"
             style={{
@@ -77,10 +69,8 @@ export const NavBar = () => {
             onMouseOver={(e) => (e.target.style.color = "#1abc9c")}
             onMouseOut={(e) => (e.target.style.color = "white")}
           >
-
-            {/* Current Monday Results 2025 */}
             Current Monday Results <br />
-            <span style={{ fontSize: "12px" }}>06-01-25</span>
+            <span style={{ fontSize: "12px" }}>13-01-25</span>
           </Link>
           <Link
             to="/Days100LearningPlan"

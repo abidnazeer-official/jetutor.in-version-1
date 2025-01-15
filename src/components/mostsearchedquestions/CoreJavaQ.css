@@ -1,0 +1,120 @@
+/* CoreJavaQ.css */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Wrapper styles */
+div {
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #777;
+}
+
+/* Main styles */
+main {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+/* Section styles */
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    font-size: 2rem;
+    color: #2196F3;
+    border-bottom: 2px solid #2196F3;
+    padding-bottom: 10px;
+}
+
+/* Specific section colors */
+section:nth-of-type(2) h2 {
+    color: #FF9800;
+    border-color: #FF9800;
+}
+
+section:nth-of-type(3) h2 {
+    color: #E91E63;
+    border-color: #E91E63;
+}
+
+section:nth-of-type(4) h2 {
+    color: #9C27B0;
+    border-color: #9C27B0;
+}
+
+section:nth-of-type(5) h2 {
+    color: #3F51B5;
+    border-color: #3F51B5;
+}
+
+/* Ordered list styles */
+ol {
+    padding-left: 20px;
+}
+
+ol li {
+    margin-bottom: 20px;
+}
+
+ol li h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+ol li p {
+    margin-left: 20px;
+    color: #555;
+    line-height: 1.5;
+}
+
+ol li ul {
+    list-style: disc inside;
+    margin-left: 20px;
+}
+
+ol li ul li {
+    margin-bottom: 5px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    section h2 {
+        font-size: 1.8rem;
+    }
+
+    ol li h3 {
+        font-size: 1.1rem;
+    }
+}

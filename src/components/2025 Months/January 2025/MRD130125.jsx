@@ -1,6 +1,7 @@
 import React from "react";
 
-export const CurrentMondayResults = () => {
+export const MRD130125 = () => {
+    
   const imgUrlMRD130125_1 =
     "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2F2025%20%5BNew%20Year%5D%2FJanuary%202025%2F13-01-25%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20250113_172705_0001.png?alt=media&token=0f4f892e-6fea-4de3-9748-f8bb8b9b5a35";
   const imgUrlMRD130125_2 =
@@ -18,7 +19,7 @@ export const CurrentMondayResults = () => {
 
   return (
     <>
-       <div>13 January 2025</div>
+      <div>13 January 2025</div>
       <div align="center">
         <img
           src={imgUrlMRD130125_1}
@@ -67,7 +68,7 @@ export const CurrentMondayResults = () => {
           alt="Failed to load, please check your internet!"
           height={450}
           width={400}/>
-      </div>  
+      </div>
     </>
   );
 };

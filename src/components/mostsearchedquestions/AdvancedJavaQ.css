@@ -1,0 +1,130 @@
+/* AdvancedJavaQ.css */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: #fff;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header-title {
+    color: #0073e6;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.search-bar {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.search-bar:focus {
+    border-color: #0073e6;
+    box-shadow: 0 0 5px rgba(0, 115, 230, 0.5);
+    outline: none;
+}
+
+.question-section {
+    margin-bottom: 40px;
+}
+
+.question-section h2 {
+    font-size: 1.8rem;
+    color: #0073e6;
+    border-bottom: 2px solid #0073e6;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.question-list {
+    list-style: decimal inside;
+    padding-left: 20px;
+}
+
+.question-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.question-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.question-title {
+    font-size: 1.3rem;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.answer-list {
+    list-style: disc inside;
+    padding-left: 20px;
+    margin-top: 5px;
+}
+
+.answer-item {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.no-results {
+    font-size: 1rem;
+    color: #666;
+    font-style: italic;
+}
+
+@media (max-width: 768px) {
+    main {
+        padding: 15px;
+    }
+
+    .header-title {
+        font-size: 2rem;
+    }
+
+    .question-title {
+        font-size: 1.1rem;
+    }
+
+    .search-bar {
+        font-size: 0.9rem;
+    }
+}
