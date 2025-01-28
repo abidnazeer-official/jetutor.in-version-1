@@ -52,7 +52,8 @@ import BrotherlyAdviceForSecondYearStudents from "./components/adviceforbtechstu
 import BrotherlyAdviceForThirdYearStudents from "./components/adviceforbtechstudents/BrotherlyAdviceForThirdYearStudents";
 import BrotherlyAdviceForFourthYearStudents from "./components/adviceforbtechstudents/BrotherlyAdviceForFourthYearStudents";
 import { MRD130125 } from "./components/2025 Months/January 2025/MRD130125";
-
+import { MRD200125 } from "./components/2025 Months/January 2025/MRD200125";
+import { MRD270125 } from "./components/2025 Months/January 2025/MRD270125";
 
 const App = () => {
   
@@ -111,7 +112,9 @@ const App = () => {
           <Route path="/BrotherlyAdviceForSecondYearStudents" element={<BrotherlyAdviceForSecondYearStudents/>}/>
           <Route path="/BrotherlyAdviceForThirdYearStudents" element={<BrotherlyAdviceForThirdYearStudents/>}/>
           <Route path="/BrotherlyAdviceForFourthYearStudents" element={<BrotherlyAdviceForFourthYearStudents/>}/>
-          <Route path="/MRD130125" element={<MRD130125/>}/>     
+          <Route path="/MRD130125" element={<MRD130125/>}/>
+          <Route path="/MRD200125" element={<MRD200125/>}/>    
+          <Route path="/MRD270125" element={<MRD270125/>}/>   
 
         </Routes>
       </div>

@@ -78,7 +78,7 @@ export const NavBar = () => {
             onMouseOut={(e) => (e.target.style.color = "white")}
           >
             Current Monday Results <br />
-            <span style={{ fontSize: "12px" }}>30-12-24</span>
+            <span style={{ fontSize: "12px" }}>27-01-25</span>
           </Link>
           <Link
             to="/Days100LearningPlan"
@@ -92,7 +92,7 @@ export const NavBar = () => {
             onMouseOver={(e) => (e.target.style.color = "#1abc9c")}
             onMouseOut={(e) => (e.target.style.color = "white")}
           >
-            100 Days Java Learning Plan
+            90 Days Java Learning Plan
           </Link>
         </Box>
       </Box>

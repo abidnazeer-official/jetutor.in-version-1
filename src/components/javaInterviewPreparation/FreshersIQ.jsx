@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Box, Typography } from '@mui/material'; // Added MUI imports
 
+import { useEffect } from "react";
+
 const questions = [
   {
     category: 'Core Java Basics',
@@ -126,6 +128,13 @@ const FreshersIQ = () => {
       item.toLowerCase().includes(searchTerm.toLowerCase())
     )
   }));
+
+ useEffect(() => {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
+      }, []);
 
   return (
     <div style={{ padding: '20px', fontFamily: 'Arial, sans-serif' }}>

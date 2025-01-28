@@ -8,8 +8,8 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
-  background-color: #f8f9fa;
-  color: #333;
+  background-color: #eef2ff; /* Light lavender for a soft and pleasing background */
+  color: #0d1117; /* Dark color for maximum text visibility */
   padding: 20px;
 }
 
@@ -23,11 +23,11 @@ body {
 /* Header Section */
 .header {
   text-align: center;
-  background-color: #28a745;
-  color: white;
+  background: linear-gradient(45deg, #6c63ff, #8a2be2); /* Purple gradient for an engaging header */
+  color: #ffffff; /* White text for high contrast */
   padding: 40px;
   border-radius: 12px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
   margin-bottom: 40px;
 }
 
@@ -48,7 +48,7 @@ main {
 
 /* Individual Section Styles */
 .section {
-  background-color: white;
+  background-color: #ffffff; /* Crisp white for a clean look */
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 8px;
@@ -57,7 +57,7 @@ main {
 
 .section h2 {
   font-size: 1.9rem;
-  color: #28a745;
+  color: #6c63ff; /* Vibrant purple for section headers */
   margin-bottom: 10px;
 }
 
@@ -70,6 +70,7 @@ main {
   font-size: 1.1rem;
   margin-bottom: 15px;
   line-height: 1.5;
+  color: #495057; /* Neutral gray for text readability */
 }
 
 .section ul ul {
@@ -84,20 +85,21 @@ main {
 .checklist li {
   font-size: 1.1rem;
   margin-bottom: 10px;
+  color: #495057; /* Dark text for visibility */
 }
 
 .checklist li::before {
   content: "✅ ";
-  color: #28a745;
+  color: #6c63ff; /* Purple for checklist icons */
 }
 
 .footer {
   text-align: center;
   margin-top: 40px;
   font-size: 1.1rem;
-  color: #555;
+  color: #343a40; /* Dark gray for readability */
   padding: 20px;
-  background-color: #fff;
+  background-color: #ffffff; /* Clean white footer */
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -108,12 +110,12 @@ main {
 
 /* Hover Effects for Interactivity */
 h2:hover {
-  color: #218838;
+  color: #8a2be2; /* Bright purple for hover */
   transition: color 0.3s ease;
 }
 
 ul li:hover {
-  color: #28a745;
+  color: #6c63ff; /* Purple for hover */
   transition: color 0.3s ease;
 }
 

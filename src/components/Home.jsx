@@ -18,22 +18,24 @@ export const Home = () => {
   const videoData = [
     {
       title:
-        "Downloading and Installing JDK in 2024 || Lecture-9 || Java Full Stack Development || ABID NAZEER",
-      url: "https://youtu.be/-dwnz3EP3fg?si=L0_W_1571nCNrSJN",
+        "Java method for removing an element from a list? || Java:AB42ID || JE Tutor",
+      url: "https://www.youtube.com/watch?v=yEqDBtQuxYU&t=16s",
     },
     {
       title:
-        "Inheritance in java || Program-10 || Java1000Programs || ABID NAZEER",
+        "Inheritance in java || Program-10 || Java1000Programs || JE Tutor",
       url: "https://youtu.be/Kxa-r_vl1Q8?si=eO9S7_z_BnG1yjdk",
     },
     {
-      title: "Java HashMap and Hashtable || Java Expert Tutor",
+      title: "Java HashMap and Hashtable || JE Tutor",
       url: "https://youtu.be/MQyZkKIvb40?si=y7Wc5XD_F6nloniy",
     },
   ];
 
   return (
-    <Container maxWidth="lg" style={{ padding: "20px" }}>
+    <>
+    <div>
+ <Container maxWidth="lg" style={{ padding: "20px" }}>
       {/* Welcome Section */}
       <Box mt={4} textAlign="center">
         <Typography variant="h4" gutterBottom>
@@ -55,12 +57,13 @@ export const Home = () => {
 
 
           {/* Change Date Here  */}
-          Monday Results Day [13-01-25] <br />
+          Monday Results Day [27-01-25] <br />
           <span style={{ color: "blue" }}>Status: Active</span>
         </Typography>
         <Box my={2}>
           <img
-            src="https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2Findex.html%2Fimages%2FActive%20Learner's%20Ranking%2FCurrent%20Week%20Ranking%2FCurrent%20Week%20Ranking%202025%2FJanuary%202025%2FJetutor_Version%201.0.0.15.png?alt=media&token=681476ce-420e-4bd9-b6e7-ba11483a97d4"
+          //Change this image in every update
+            src="https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2Findex.html%2Fimages%2FActive%20Learner's%20Ranking%2FCurrent%20Week%20Ranking%2FCurrent%20Week%20Ranking%202025%2FJanuary%202025%2Fjetutor%20version%201.0.0.17.png?alt=media&token=5e203de6-97ac-4353-9749-148f3d53d3b4"
             alt="Current Week Ranking"
             style={{ maxWidth: "100%", borderRadius: "8px" }}
           />
@@ -313,8 +316,12 @@ export const Home = () => {
         <Typography variant="body2" style={{ marginTop: "10px" }}>
           <b>Contact Us:</b> support@jetutor.in
         </Typography>
-        <Typography variant="caption">Version: 1.0.0.15</Typography>
+        <Typography variant="caption">Version: 1.0.0.17</Typography>
       </Box>
     </Container>
+    </div>
+
+   
+    </>
   );
 };

@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect } from "react";
 
 export const MRD130125 = () => {
     
@@ -17,6 +18,13 @@ export const MRD130125 = () => {
   const imgUrlMRD130125_7 =
     "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2F2025%20%5BNew%20Year%5D%2FJanuary%202025%2F13-01-25%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20250113_172705_0007.png?alt=media&token=857bc20c-4a06-4506-9426-e677aa7c8556";
 
+    // Scroll to the top when the component is mounted
+          useEffect(() => {
+            window.scrollTo({
+              top: 0,
+              behavior: "smooth", // Adds smooth scrolling
+            });
+          }, []); // Empty dependency array ensures it runs once when the component is mounted
   return (
     <>
       <div>13 January 2025</div>

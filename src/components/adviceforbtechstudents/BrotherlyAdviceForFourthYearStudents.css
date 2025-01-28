@@ -1,109 +1,143 @@
 /* General Reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
-  }
-  
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  .header {
-    text-align: center;
-    background-color: #17a2b8;
-    color: white;
-    padding: 20px;
-    border-radius: 8px;
-    margin-bottom: 30px;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f1f5f9; /* Light gray for better contrast with dark text */
+  color: #0d1117; /* Dark color for maximum text visibility */
+  padding: 20px;
+}
+
+/* Container for the content */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header Section */
+.header {
+  text-align: center;
+  background: linear-gradient(45deg, #1e3a8a, #3b82f6); /* Rich blue gradient */
+  color: #ffffff; /* White text for high contrast */
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+
+.header p {
+  font-size: 1.3rem;
+  margin-top: 10px;
+}
+
+/* Main Content Sections */
+main {
+  padding: 20px;
+}
+
+/* Individual Section Styles */
+.section {
+  background-color: #ffffff; /* White for high contrast with text */
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+  font-size: 1.9rem;
+  color: #1e3a8a; /* Bold blue for better visibility */
+  margin-bottom: 10px;
+}
+
+.section ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.section li {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  line-height: 1.5;
+  color: #374151; /* Neutral dark gray for text readability */
+}
+
+.section ul ul {
+  margin-left: 20px;
+}
+
+.checklist ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.checklist li {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: #374151; /* Dark text for visibility */
+}
+
+.checklist li::before {
+  content: " ";
+  color: #3b82f6; /* Bright blue for checklist icons */
+}
+
+.footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 1.1rem;
+  color: #1e293b; /* Darker text for readability */
+  padding: 20px;
+  background-color: #ffffff; /* White footer */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.footer p {
+  font-weight: 500;
+}
+
+/* Hover Effects for Interactivity */
+h2:hover {
+  color: #2563eb; /* Bright blue for hover */
+  transition: color 0.3s ease;
+}
+
+ul li:hover {
+  color: #1e3a8a; /* Dark blue for hover */
+  transition: color 0.3s ease;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
   .header h1 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
-  
+
   .header p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
-  
-  main {
-    padding: 20px;
-  }
-  
-  .section {
-    background-color: white;
-    margin-bottom: 20px;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
+
   .section h2 {
-    font-size: 1.8rem;
-    margin-bottom: 10px;
-    color: #17a2b8;
+    font-size: 1.6rem;
   }
-  
-  .section ul {
-    list-style-type: none;
-    margin-left: 20px;
-  }
-  
+
   .section li {
     font-size: 1rem;
-    margin-bottom: 10px;
   }
-  
-  .checklist ul {
-    list-style-type: none;
-    margin-left: 20px;
-  }
-  
-  .checklist li {
-    font-size: 1.1rem;
-    margin-bottom: 10px;
-  }
-  
-  .checklist li::before {
-    content: "";
-    color: #17a2b8;
-  }
-  
-  .final-words {
-    background-color: #fff3cd;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .final-words h2 {
-    font-size: 1.8rem;
-    color: #856404;
-  }
-  
-  .final-words p {
-    font-size: 1.1rem;
-    color: #6c757d;
-  }
-  
-  footer {
-    text-align: center;
-    margin-top: 30px;
+
+  .footer p {
     font-size: 1rem;
-    color: #777;
   }
-  
-  /* Smooth scroll to top */
-  html {
-    scroll-behavior: smooth;
-  }
-  
+}

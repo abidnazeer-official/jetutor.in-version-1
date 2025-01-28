@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useEffect } from "react";
 
 const twoYearExperienceQuestions = [
   {
@@ -135,6 +136,13 @@ const TwoYearExperienceIQ = () => {
       item.toLowerCase().includes(searchTerm.toLowerCase())
     )
   }));
+
+ useEffect(() => {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
+      }, []);
 
   return (
     <div style={{ padding: '20px', fontFamily: 'Arial, sans-serif' }}>
