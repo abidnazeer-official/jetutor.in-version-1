@@ -1,73 +1,73 @@
 import React from "react";
 
 export const CurrentMondayResults = () => {
-  const imgUrlMRD130125_1 =
-    "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2F2025%20%5BNew%20Year%5D%2FJanuary%202025%2F13-01-25%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20250113_172705_0001.png?alt=media&token=0f4f892e-6fea-4de3-9748-f8bb8b9b5a35";
-  const imgUrlMRD130125_2 =
-    "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2F2025%20%5BNew%20Year%5D%2FJanuary%202025%2F13-01-25%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20250113_172705_0002.png?alt=media&token=ac4c87c4-2a10-4fd6-be19-395b6df07768";
-  const imgUrlMRD130125_3 =
-    "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2F2025%20%5BNew%20Year%5D%2FJanuary%202025%2F13-01-25%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20250113_172705_0003.png?alt=media&token=da325e7b-20f5-4995-84ec-1d6bff1bcce4";
-  const imgUrlMRD130125_4 =
-    "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2F2025%20%5BNew%20Year%5D%2FJanuary%202025%2F13-01-25%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20250113_172705_0004.png?alt=media&token=b17a8609-0516-4b4c-91d5-edf9d01bafab";
-  const imgUrlMRD130125_5 =
-    "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2F2025%20%5BNew%20Year%5D%2FJanuary%202025%2F13-01-25%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20250113_172705_0005.png?alt=media&token=a56b2949-d6fa-4e2f-958c-2af114d23068";
-  const imgUrlMRD130125_6 =
-    "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2F2025%20%5BNew%20Year%5D%2FJanuary%202025%2F13-01-25%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20250113_172705_0006.png?alt=media&token=573f5446-a75c-404e-a692-576cfcf67746";
-  const imgUrlMRD130125_7 =
-    "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2F2025%20%5BNew%20Year%5D%2FJanuary%202025%2F13-01-25%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20250113_172705_0007.png?alt=media&token=857bc20c-4a06-4506-9426-e677aa7c8556";
+  const imgUrlMRD270125_1 = "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2F2025%20%5BNew%20Year%5D%2FJanuary%202025%2F27-01-25%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20250127_171324_0001.png?alt=media&token=74263ca3-46b1-4d93-901e-65e9e9892e0e";
+  const imgUrlMRD270125_2 = "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2F2025%20%5BNew%20Year%5D%2FJanuary%202025%2F27-01-25%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20250127_171324_0002.png?alt=media&token=64ac9eef-ef9f-4af9-9e30-4b233e360451";
+  const imgUrlMRD270125_3 = "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2F2025%20%5BNew%20Year%5D%2FJanuary%202025%2F27-01-25%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20250127_171324_0003.png?alt=media&token=8af8fe1b-a3a3-4761-ae6f-cd52af30e366";
+  const imgUrlMRD270125_4 = "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2F2025%20%5BNew%20Year%5D%2FJanuary%202025%2F27-01-25%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20250127_171324_0004.png?alt=media&token=8e3bb1fa-e7fb-4ae1-88bc-270727072f2a";
+  const imgUrlMRD270125_5 = "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2F2025%20%5BNew%20Year%5D%2FJanuary%202025%2F27-01-25%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20250127_171324_0005.png?alt=media&token=8ea573e9-c2af-41df-87fa-71610188dffa";
+  const imgUrlMRD270125_6 = "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2F2025%20%5BNew%20Year%5D%2FJanuary%202025%2F27-01-25%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20250127_171324_0006.png?alt=media&token=a3bd1fda-7ce2-4318-91c9-88889a0cf006";
+  const imgUrlMRD270125_7 = "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2F2025%20%5BNew%20Year%5D%2FJanuary%202025%2F27-01-25%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20250127_171324_0007.png?alt=media&token=c7db215e-0970-4a35-acfc-3274f8e72cad";
 
   return (
-    <>
-       <div>13 January 2025</div>
+     <>
+      <div>27 January 2025</div>
       <div align="center">
         <img
-          src={imgUrlMRD130125_1}
+          src={imgUrlMRD270125_1}
           alt="Failed to load, please check your internet!"
           height={450}
-          width={400}/>
+          width={400}
+        />
       </div>
       <div align="center">
         <img
-          src={imgUrlMRD130125_2}
+          src={imgUrlMRD270125_2}
           alt="Failed to load, please check your internet!"
           height={450}
-          width={400}/>
+          width={400}
+        />
       </div>
       <div align="center">
         <img
-          src={imgUrlMRD130125_3}
+          src={imgUrlMRD270125_3}
           alt="Failed to load, please check your internet!"
           height={450}
-          width={400}/>
+          width={400}
+        />
       </div>
       <div align="center">
         <img
-          src={imgUrlMRD130125_4}
+          src={imgUrlMRD270125_4}
           alt="Failed to load, please check your internet!"
           height={450}
-          width={400}/>
+          width={400}
+        />
       </div>
       <div align="center">
         <img
-          src={imgUrlMRD130125_5}
+          src={imgUrlMRD270125_5}
           alt="Failed to load, please check your internet!"
           height={450}
-          width={400}/>
+          width={400}
+        />
       </div>
       <div align="center">
         <img
-          src={imgUrlMRD130125_6}
+          src={imgUrlMRD270125_6}
           alt="Failed to load, please check your internet!"
           height={450}
-          width={400}/>
+          width={400}
+        />
       </div>
       <div align="center">
         <img
-          src={imgUrlMRD130125_7}
+          src={imgUrlMRD270125_7}
           alt="Failed to load, please check your internet!"
           height={450}
-          width={400}/>
-      </div>  
+          width={400}
+        />
+      </div>
     </>
   );
 };
