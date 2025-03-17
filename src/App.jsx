@@ -56,6 +56,8 @@ import { MRD200125 } from "./components/2025 Months/January 2025/MRD200125";
 import { MRD270125 } from "./components/2025 Months/January 2025/MRD270125";
 import { MRD030325 } from "./components/2025 Months/February 2025/MRD030325";
 import { MRD100325 } from "./components/2025 Months/February 2025/MRD100325";
+import { MRD170325 } from "./components/2025 Months/February 2025/MRD170325";
+import { MRD240325 } from "./components/2025 Months/February 2025/MRD240325";
 
 const App = () => {
   
@@ -119,6 +121,8 @@ const App = () => {
           <Route path="/MRD270125" element={<MRD270125/>}/>  
           <Route path="/MRD030325" element={<MRD030325/>}/> 
           <Route path="/MRD100325" element={<MRD100325/>}/>
+          <Route path="/MRD170325" element={<MRD170325/>}/>
+          <Route path="/MRD240325" element={<MRD240325/>}/>
 
         </Routes>
       </div>

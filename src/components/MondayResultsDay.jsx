@@ -186,7 +186,7 @@ export const MRS = () => {
                   <Link to="/MRD200125">20-01-25</Link>
                 </td>
                 <td>
-                  <Link to="/MRD170325">170325</Link>
+                  <Link to="/MRD170325">17-03-25</Link>
                 </td>
               </tr>
               <tr>
