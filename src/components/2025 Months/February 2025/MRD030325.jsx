@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect } from "react";
 
 export const MRD030325 = () =>{
 
@@ -10,6 +11,13 @@ const imgUrlMRD030325_5 = "https://firebasestorage.googleapis.com/v0/b/jetutorin
 const imgUrlMRD030325_6 = "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2F2025%20%5BNew%20Year%5D%2FFebruary%202025%2F03-03-25%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20250203_123032_0006.png?alt=media&token=afd330ee-234c-4c4c-8f09-7e3e57399ffd";
 const imgUrlMRD030325_7 = "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2F2025%20%5BNew%20Year%5D%2FFebruary%202025%2F03-03-25%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20250203_123032_0007.png?alt=media&token=c22dc0d0-1ba7-40fc-a388-58cbe6e1b352";
 
+// Scroll to the top when the component is mounted
+        useEffect(() => {
+          window.scrollTo({
+            top: 0,
+            behavior: "smooth", // Adds smooth scrolling
+          });
+        }, []); // Empty dependency array ensures it runs once when the component is mounted
     return(
     <>  
         <div align="center">
