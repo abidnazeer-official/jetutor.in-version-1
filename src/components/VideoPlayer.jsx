@@ -4,7 +4,7 @@ import ReactPlayer from "react-player";  // Importing ReactPlayer
 
 const VideoPlayer = ({ videoUrl }) => {
   return (
-    <div className="player-wrapper" style={{ position: "relative", padding: "150px" }}>
+    <div className="player-wrapper" style={{ position: "relative", padding: "150%" }}>
       <ReactPlayer
         url={videoUrl}  // Pass the video URL (e.g., YouTube video URL) as a prop
         className="react-player"
@@ -17,7 +17,7 @@ const VideoPlayer = ({ videoUrl }) => {
           top: "0",
           left: "0",
           width: "100%",
-          height: "1000%",
+          height: "100%",
         }}
       />
     </div>

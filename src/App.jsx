@@ -4,44 +4,44 @@ import { Home } from "./components/Home";
 import { MRS } from "./components/MondayResultsDay";
 import { About } from "./components/About";
 import { NavBar } from "./components/NavBar";
-import { MRD200524 } from "./components/MRD200524";
-import { MRD270524 } from "./components/MRD270524";
-import { MRD030624 } from "./components/MRD030624";
-import { MRD100624 } from "./components/MRD100624";
-import { MRD170624 } from "./components/MRD170624";
-import { MRD240624 } from "./components/MRD240624";
-import { MRD010724 } from "./components/MRD010724";
-import { MRD080724 } from "./components/MRD080724";
-import { MRD150724 } from "./components/MRD150724";
-import { MRD220724 } from "./components/MRD220724";
-import { MRD290724 } from "./components/MRD290724";
-import { MRD050824 } from "./components/MRD050824";
-import { MRD120824 } from "./components/MRD120824";
-import { MRD190824 } from "./components/MRD190824";
-import { MRD260824 } from "./components/MRD260824";
-import { MRD020924 } from "./components/MRD020924";
-import { MRD090924 } from "./components/MRD090924";
-import { MRD160924 } from "./components/MRD160924";
-import { MRD230924 } from "./components/MRD230924";
-import { MRD300924 } from "./components/MRD300924";
-import { MRD071024 } from "./components/MRD071024";
-import { MRD141024 } from "./components/MRD141024";
-import { MRD211024 } from "./components/MRD211024";
+import { MRD200524 } from "./components/2024/Year/May 2024/MRD200524";
+import { MRD270524 } from "./components/2024/Year/May 2024/MRD270524";
+import { MRD030624 } from "./components/2024/Year/June 2024/MRD030624";
+import { MRD100624 } from "./components/2024/Year/June 2024/MRD100624";
+import { MRD170624 } from "./components/2024/Year/June 2024/MRD170624";
+import { MRD240624 } from "./components/2024/Year/June 2024/MRD240624";
+import { MRD010724 } from "./components/2024/Year/July 2024/MRD010724";
+import { MRD080724 } from "./components/2024/Year/July 2024/MRD080724";
+import { MRD150724 } from "./components/2024/Year/July 2024/MRD150724";
+import { MRD220724 } from "./components/2024/Year/July 2024/MRD220724";
+import { MRD290724 } from "./components/2024/Year/July 2024/MRD290724";
+import { MRD050824 } from "./components/2024/Year/August 2024/MRD050824";
+import { MRD120824 } from "./components/2024/Year/August 2024/MRD120824";
+import { MRD190824 } from "./components/2024/Year/August 2024/MRD190824";
+import { MRD260824 } from "./components/2024/Year/August 2024/MRD260824";
+import { MRD020924 } from "./components/2024/Year/September 2024/MRD020924";
+import { MRD090924 } from "./components/2024/Year/September 2024/MRD090924";
+import { MRD160924 } from "./components/2024/Year/September 2024/MRD160924";
+import { MRD230924 } from "./components/2024/Year/September 2024/MRD230924";
+import { MRD300924 } from "./components/2024/Year/September 2024/MRD300924";
+import { MRD071024 } from "./components/2024/Year/October 2024/MRD071024";
+import { MRD141024 } from "./components/2024/Year/October 2024/MRD141024";
+import { MRD211024 } from "./components/2024/Year/October 2024/MRD211024";
 import { CurrentMondayResults } from "./components/CurrentMondayResults";
 import { Days100JavaLearningPlan } from "./components/Days100JavaLearningPlan";
-import { MRD281024 } from "./components/MRD281024";
-import { MRD041124 } from "./components/MRD041124";
-import { MRD111124 } from "./components/MRD111124";
-import { MRD181124 } from "./components/MRD181124";
-import { MRD251124 } from "./components/MRD251124";
+import { MRD281024 } from "./components/2024/Year/October 2024/MRD281024";
+import { MRD041124 } from "./components/2024/Year/November 2024/MRD041124";
+import { MRD111124 } from "./components/2024/Year/November 2024/MRD111124";
+import { MRD181124 } from "./components/2024/Year/November 2024/MRD181124";
+import { MRD251124 } from "./components/2024/Year/November 2024/MRD251124";
 import { MSearchedQ } from "./components/mostsearchedquestions/MSearchedQ";
 import { CoreJavaQ } from "./components/mostsearchedquestions/CoreJavaQ";
 import { AdvancedJavaQ } from "./components/mostsearchedquestions/AdvancedJavaQ";
-import { MRD021224 } from "./components/MRD021224";
-import { MRD091224 } from "./components/MRD091224";
-import { MRD161224 } from "./components/MRD161224";
-import { MRD231224 } from "./components/2024/December/MRD231224";
-import { MRD301224 } from "./components/2024/December/MRD301224";
+import { MRD021224 } from "./components/2024/Year/December 2024/MRD021224";
+import { MRD091224 } from "./components/2024/Year/December 2024/MRD091224";
+import { MRD161224 } from "./components/2024/Year/December 2024/MRD161224";
+import { MRD231224 } from "./components/2024/Year/December 2024/MRD231224";
+import { MRD301224 } from "./components/2024/Year/December 2024/MRD301224";
 import FreshersIQ from "./components/javaInterviewPreparation/FreshersIQ";
 import OneYearExperienceIQ from "./components/javaInterviewPreparation/OneYearExperienceIQ";
 import TwoYearExperienceIQ from "./components/javaInterviewPreparation/TwoYearExperienceIQ";
@@ -54,10 +54,18 @@ import BrotherlyAdviceForFourthYearStudents from "./components/adviceforbtechstu
 import { MRD130125 } from "./components/2025 Months/January 2025/MRD130125";
 import { MRD200125 } from "./components/2025 Months/January 2025/MRD200125";
 import { MRD270125 } from "./components/2025 Months/January 2025/MRD270125";
-import { MRD030325 } from "./components/2025 Months/February 2025/MRD030325";
-import { MRD100325 } from "./components/2025 Months/February 2025/MRD100325";
-import { MRD170325 } from "./components/2025 Months/February 2025/MRD170325";
-import { MRD240325 } from "./components/2025 Months/February 2025/MRD240325";
+import { MRD030225 } from "./components/2025 Months/February 2025/MRD030225";
+import { MRD100225 } from "./components/2025 Months/February 2025/MRD100225";
+import { MRD170225 } from "./components/2025 Months/February 2025/MRD170225";
+import { MRD240225 } from "./components/2025 Months/February 2025/MRD240225";
+import { MRD030325 } from "./components/2025 Months/March2025/MRD030325";
+import { MRD100325 } from "./components/2025 Months/March2025/MRD100325";
+import { MRD170325 } from "./components/2025 Months/March2025/MRD170325";
+import { MRD240325 } from "./components/2025 Months/March2025/MRD240325";
+import { MRD310325 } from "./components/2025 Months/March2025/MRD310325";
+import { Disclaimer } from "./components/disclaimerprivacypolicyterms&condition/Disclaimer";
+import { PrivacyPolicy } from "./components/disclaimerprivacypolicyterms&condition/PrivacyPolicy";
+import { TermsConditions } from "./components/disclaimerprivacypolicyterms&condition/TermsConditions";
 
 const App = () => {
   
@@ -119,10 +127,18 @@ const App = () => {
           <Route path="/MRD130125" element={<MRD130125/>}/>
           <Route path="/MRD200125" element={<MRD200125/>}/>    
           <Route path="/MRD270125" element={<MRD270125/>}/>  
-          <Route path="/MRD030325" element={<MRD030325/>}/> 
+          <Route path="/MRD030225" element={<MRD030225/>}/> 
+          <Route path="/MRD100225" element={<MRD100225/>}/>
+          <Route path="/MRD170225" element={<MRD170225/>}/>
+          <Route path="/MRD240225" element={<MRD240225/>}/>
+          <Route path="/MRD030325" element={<MRD030325/>}/>
           <Route path="/MRD100325" element={<MRD100325/>}/>
           <Route path="/MRD170325" element={<MRD170325/>}/>
           <Route path="/MRD240325" element={<MRD240325/>}/>
+          <Route path="/MRD310325" element={<MRD310325/>}/>
+          <Route path="/Disclaimer" element={<Disclaimer/>}/>
+          <Route path="/PrivacyPolicy" element={<PrivacyPolicy/>}/>
+          <Route path="/TermsConditions" element={<TermsConditions/>}/>
 
         </Routes>
       </div>

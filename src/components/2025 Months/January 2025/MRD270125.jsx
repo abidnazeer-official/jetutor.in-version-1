@@ -27,6 +27,7 @@ export const MRD270125 = () => {
           width={400}
         />
       </div>
+      <br />
       <div align="center">
         <img
           src={imgUrlMRD270125_2}
@@ -35,6 +36,7 @@ export const MRD270125 = () => {
           width={400}
         />
       </div>
+      <br />
       <div align="center">
         <img
           src={imgUrlMRD270125_3}
