@@ -15,7 +15,6 @@ export const Home = () => {
 
     const navigate = useNavigate();
 
-
   return (
     <>
       <div>
@@ -39,13 +38,14 @@ export const Home = () => {
             </Typography>
             <Typography variant="body1">
               {/* Change Date Here  */}
-              Monday Results Day [17-03-25] <br />
+              Monday Results Day [24-03-25] <br />
               <span style={{ color: "blue" }}>Status: Active</span>
             </Typography>
             <Box my={2}>
               <img
                 //Change this image in every update
-                src="https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FHome%20Page%2FCurrent%20Week%20Ranking%2FYear%202025%2FMarch%202025%2FJetutor%20Version%201.0.0.18.jpg?alt=media&token=bf1bfe46-f01d-41ec-a1c0-a2f3eff49c7c"
+                
+                src="https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FHome%20Page%2FCurrent%20Week%20Ranking%2FYear%202025%2FMarch%202025%2FJetutor%20Version%201.0.0.19.jpg?alt=media&token=e3177ec9-abfe-451e-8f45-ab4c1f40d76f"
                 alt="Failed to load Current Week Ranking"
                 style={{ position: "relative", 
                   width: "100%", 
@@ -326,7 +326,7 @@ export const Home = () => {
             <Typography variant="body2" style={{ marginTop: "10px" }}>
               <b>Contact Us:</b> support@jetutor.in
             </Typography>
-            <Typography variant="caption">Version: 1.0.0.18</Typography>
+            <Typography variant="caption">Version: 1.0.0.19</Typography>
           </Box>
         </Container>
       </div>

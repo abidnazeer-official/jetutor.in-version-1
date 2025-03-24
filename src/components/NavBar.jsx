@@ -78,7 +78,7 @@ export const NavBar = () => {
             onMouseOut={(e) => (e.target.style.color = "white")}
           >
             Current Monday Results <br />
-            <span style={{ fontSize: "12px" }}>17-03-25</span>
+            <span style={{ fontSize: "12px" }}>24-03-25</span>
           </Link>
           <Link
             to="/Days100LearningPlan"

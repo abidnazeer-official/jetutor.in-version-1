@@ -1,20 +1,20 @@
 import React, { useEffect } from "react";
 
 export const CurrentMondayResults = () => {
-  const imgUrlMRD170325_1 =
-  "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2F2025%20%5BNew%20Year%5D%2FMarch%202025%2F17-03-25%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20250318_001700_0001.png?alt=media&token=809346fc-7d40-4f8b-bd2c-341d4f1a3288";
-const imgUrlMRD170325_2 =
-  "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2F2025%20%5BNew%20Year%5D%2FMarch%202025%2F17-03-25%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20250318_001700_0002.png?alt=media&token=95db27c7-36f0-4609-b17e-9969d6328cb4";
-const imgUrlMRD170325_3 =
-  "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2F2025%20%5BNew%20Year%5D%2FMarch%202025%2F17-03-25%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20250318_001700_0003.png?alt=media&token=f9217e07-346c-4f60-b9e4-0d695f230f3d";
-const imgUrlMRD170325_4 =
-  "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2F2025%20%5BNew%20Year%5D%2FMarch%202025%2F17-03-25%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20250318_001701_0004.png?alt=media&token=dba6b06c-a93a-4ce8-9c2e-e6666ee2ab0a";
-const imgUrlMRD170325_5 =
-  "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2F2025%20%5BNew%20Year%5D%2FMarch%202025%2F17-03-25%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20250318_001701_0005.png?alt=media&token=a0225656-339f-48be-a559-c6b9f9ee45eb";
-const imgUrlMRD170325_6 =
-  "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2F2025%20%5BNew%20Year%5D%2FMarch%202025%2F17-03-25%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20250318_001701_0006.png?alt=media&token=65e42e4e-a131-4420-b5d9-cdaf771d7f01";
-const imgUrlMRD170325_7 =
-  "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2F2025%20%5BNew%20Year%5D%2FFebruary%202025%2F17-03-25%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20250217_162442_0007.png?alt=media&token=ea8834e8-1f8e-46f9-b32c-64e446cf25d4";
+  const imgUrlMRD240325_1 =
+    "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2F2025%20%5BNew%20Year%5D%2FMarch%202025%2F24-03-25%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20250325_021622_0001.png?alt=media&token=038bf25f-2324-471c-853c-eb3c7e68307b";
+  const imgUrlMRD240325_2 =
+    "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2F2025%20%5BNew%20Year%5D%2FMarch%202025%2F24-03-25%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20250325_021622_0002.png?alt=media&token=b9f7fa8d-7ce0-4f08-b27c-8858ba641634";
+  const imgUrlMRD240325_3 =
+    "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2F2025%20%5BNew%20Year%5D%2FMarch%202025%2F24-03-25%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20250325_021622_0003.png?alt=media&token=56d175a6-589c-42e2-baa2-077c2466ba42";
+  const imgUrlMRD240325_4 =
+    "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2F2025%20%5BNew%20Year%5D%2FMarch%202025%2F24-03-25%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20250325_021622_0004.png?alt=media&token=8865f3c4-c508-4149-83a6-c6e36361d55a";
+  const imgUrlMRD240325_5 =
+    "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2F2025%20%5BNew%20Year%5D%2FMarch%202025%2F24-03-25%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20250325_021622_0005.png?alt=media&token=b244d6fd-be71-47ee-8ad3-89479e2ac172";
+  const imgUrlMRD240325_6 =
+    "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2F2025%20%5BNew%20Year%5D%2FMarch%202025%2F24-03-25%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20250325_021622_0006.png?alt=media&token=1972e998-8854-4877-b18c-f9b50d6e4952";
+  const imgUrlMRD240325_7 =
+    "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2F2025%20%5BNew%20Year%5D%2FMarch%202025%2F24-03-25%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20250325_021622_0007.png?alt=media&token=b5868519-72cf-428c-b50b-de4cdf0e6d7c";
 
 // Scroll to the top when the component is mounted
   useEffect(() => {
@@ -26,10 +26,10 @@ const imgUrlMRD170325_7 =
 
   return (
      <>
-      <div>17 March 2025</div>
+      <div>24 March 2025</div>
       <div align="center">
         <img
-          src={imgUrlMRD170325_1}
+          src={imgUrlMRD240325_1}
           alt="Failed to load, please check your internet!"
           height={450}
           width={400}
@@ -37,7 +37,7 @@ const imgUrlMRD170325_7 =
         </div>
         <div align="center">
         <img
-          src={imgUrlMRD170325_2}
+          src={imgUrlMRD240325_2}
           alt="Failed to load, please check your internet!"
           height={450}
           width={400}
@@ -45,7 +45,7 @@ const imgUrlMRD170325_7 =
         </div>
         <div align="center">
         <img
-          src={imgUrlMRD170325_3}
+          src={imgUrlMRD240325_3}
           alt="Failed to load, please check your internet!"
           height={450}
           width={400}
@@ -53,7 +53,7 @@ const imgUrlMRD170325_7 =
         </div>
         <div align="center">
         <img
-          src={imgUrlMRD170325_4}
+          src={imgUrlMRD240325_4}
           alt="Failed to load, please check your internet!"
           height={450}
           width={400}
@@ -61,7 +61,7 @@ const imgUrlMRD170325_7 =
         </div>
         <div align="center">
         <img
-          src={imgUrlMRD170325_5}
+          src={imgUrlMRD240325_5}
           alt="Failed to load, please check your internet!"
           height={450}
           width={400}
@@ -69,7 +69,7 @@ const imgUrlMRD170325_7 =
         </div>
         <div align="center">
         <img
-          src={imgUrlMRD170325_6}
+          src={imgUrlMRD240325_6}
           alt="Failed to load, please check your internet!"
           height={450}
           width={400}
@@ -77,7 +77,7 @@ const imgUrlMRD170325_7 =
         </div>
         <div align="center">
         <img
-          src={imgUrlMRD170325_7}
+          src={imgUrlMRD240325_7}
           alt="Failed to load, please check your internet!"
           height={450}
           width={400}
