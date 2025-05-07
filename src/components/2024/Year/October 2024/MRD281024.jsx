@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 export const MRD281024 = () => {
   const imageUrl281024_1 =
@@ -10,6 +10,13 @@ export const MRD281024 = () => {
   const imageUrl281024_4 =
     "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2FOctober%202024%2F21-10-24%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20241021_121153_0003.png?alt=media&token=136c3c29-6eb1-496e-9999-0fdb968e2175";
 
+  // Scroll to the top when the component is mounted
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth", // Adds smooth scrolling
+    });
+  }, []); // Empty dependency array ensures it runs once when the component is mounted
   return (
     <>
       <div>28 October 2024</div>

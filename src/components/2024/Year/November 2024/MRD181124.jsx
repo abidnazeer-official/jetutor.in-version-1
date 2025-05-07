@@ -10,7 +10,13 @@ export const MRD181124 = () => {
     "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2FNovember%202024%2F18-11-24%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20241118_082442_0002.png?alt=media&token=6a847ce3-c651-457e-9e51-6717ab060415";
   const imgUrlMRD181124_4 =
     "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2FNovember%202024%2F18-11-24%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20241118_082442_0003.png?alt=media&token=925de931-594a-464f-aa75-8fff47c2ddbf";
-
+  // Scroll to the top when the component is mounted
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth", // Adds smooth scrolling
+    });
+  }, []); // Empty dependency array ensures it runs once when the component is mounted
   return (
     <>
       <div>18 November 2024</div>

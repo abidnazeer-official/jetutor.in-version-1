@@ -25,6 +25,8 @@ export const MRD100325 = () => {
   }, []); // Empty dependency array ensures it runs once when the component is mounted
   return (
     <>
+        <div>10 March 2025</div>
+
       <div align="center">
         <img
           src={imgUrlMRD100325_1}

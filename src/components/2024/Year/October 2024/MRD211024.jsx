@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 export const MRD211024 = () =>{
     const imageUrl211024_1 = "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2FOctober%202024%2F21-10-24%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20241021_121153_0000.png?alt=media&token=d336a4c0-f364-4b2e-933c-237c9de32a37";
@@ -6,6 +6,13 @@ export const MRD211024 = () =>{
     const imageUrl211024_3 = "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2FOctober%202024%2F21-10-24%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20241021_121153_0002.png?alt=media&token=6fe042a7-35dd-49d6-a379-b1b656f3b32d";
     const imageUrl211024_4 = "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FMondayResultsDay%20%5BMRD%5D%2FOctober%202024%2F21-10-24%2FCopy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Copy%20of%20Cop_20241021_121153_0003.png?alt=media&token=136c3c29-6eb1-496e-9999-0fdb968e2175";
     
+    // Scroll to the top when the component is mounted
+      useEffect(() => {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth", // Adds smooth scrolling
+        });
+      }, []); // Empty dependency array ensures it runs once when the component is mounted
     return(
         <>
             <div>21 October 2024</div>

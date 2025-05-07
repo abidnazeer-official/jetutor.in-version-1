@@ -66,6 +66,11 @@ import { MRD310325 } from "./components/2025 Months/March2025/MRD310325";
 import { Disclaimer } from "./components/disclaimerprivacypolicyterms&condition/Disclaimer";
 import { PrivacyPolicy } from "./components/disclaimerprivacypolicyterms&condition/PrivacyPolicy";
 import { TermsConditions } from "./components/disclaimerprivacypolicyterms&condition/TermsConditions";
+import { MRD070425 } from "./components/2025 Months/April2025/MRD070425";
+import { MRD140425 } from "./components/2025 Months/April2025/MRD140425";
+import { MRD210425 } from "./components/2025 Months/April2025/MRD210425";
+import { MRD280425 } from "./components/2025 Months/April2025/MRD280425";
+import { MRD050525 } from "./components/2025 Months/May2025/MRD050525";
 
 const App = () => {
   
@@ -104,14 +109,14 @@ const App = () => {
           <Route path="/Days100LearningPlan" element={<Days100JavaLearningPlan/>}/>
           <Route path="/MRD281024" element={<MRD281024/>}/>
           <Route path="/MRD041124" element={<MRD041124/>}/>
-          <Route path="/MRS/MRD111124" element={<MRD111124/>}/>
+          <Route path="/MRD111124" element={<MRD111124/>}/>
           <Route path="/MRD181124" element={<MRD181124/>}/>
           <Route path="/MRD251124" element={<MRD251124/>}/>
           <Route path="/MSearchedQ" element={<MSearchedQ/>}/>
           <Route path="/CoreJavaQ" element={<CoreJavaQ/>}/>
           <Route path="/AdvancedJavaQ" element={<AdvancedJavaQ/>}/>
           <Route path="/MRD021224" element={<MRD021224/>}/>
-          <Route path="/MRS/MRD091224" element={<MRD091224/>}/>
+          <Route path="/MRD091224" element={<MRD091224/>}/>
           <Route path="/MRD161224" element={<MRD161224/>}/>
           <Route path="/MRD231224" element={<MRD231224/>}/>
           <Route path="/FreshersIQ" element={<FreshersIQ/>}/>
@@ -139,6 +144,11 @@ const App = () => {
           <Route path="/Disclaimer" element={<Disclaimer/>}/>
           <Route path="/PrivacyPolicy" element={<PrivacyPolicy/>}/>
           <Route path="/TermsConditions" element={<TermsConditions/>}/>
+          <Route path="/MRD070425" element={<MRD070425/>}/>
+          <Route path="/MRD140425" element={<MRD140425/>}/>
+          <Route path="/MRD210425" element={<MRD210425/>}/>
+          <Route path="/MRD280425" element={<MRD280425/>}/>
+          <Route path="/MRD050525" element={<MRD050525/>}/>
 
         </Routes>
       </div>
