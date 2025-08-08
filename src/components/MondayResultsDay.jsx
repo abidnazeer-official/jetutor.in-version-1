@@ -188,6 +188,12 @@ export const MRS = () => {
                  <td>
                   <Link to="/MRD020625">02-06-25</Link>
                 </td>
+                 <td>
+                  <Link to="/MRD070725">07-07-25</Link>
+                </td>
+                <td>
+                  <Link to="/MRD040825">04-08-25</Link>
+                </td>
               </tr>
               <tr>
                 {/* Row-2 */}
@@ -208,6 +214,12 @@ export const MRS = () => {
                 </td>
                 <td>
                   <Link to="/MRD090625">09-06-25</Link>
+                </td>
+                 <td>
+                  <Link to="/MRD140725">14-07-25</Link>
+                </td>
+                <td>
+                  <Link to="/MRD100825">11-08-25 <span style={{ color: "green" }}>[upcoming]</span></Link>
                 </td>
               </tr>
               <tr>
@@ -230,6 +242,12 @@ export const MRS = () => {
                 <td>
                   <Link to="/MRD160625">16-06-25</Link>
                 </td>
+                 <td>
+                  <Link to="/MRD210725">21-07-25</Link>
+                </td>
+                <td>
+                  <Link to="/MRD160825">18-08-25 <span style={{ color: "red" }}>[pending]</span></Link>
+                </td>
               </tr>
               <tr>
                 {/* Row-4 */}
@@ -251,6 +269,12 @@ export const MRS = () => {
                 <td>
                   <Link to="/MRD230625">23-06-25</Link>
                 </td>
+                 <td>
+                  <Link to="/MRD280725">28-07-25</Link>
+                </td>
+                <td>
+                  <Link to="/MRD220825">25-08-25 <span style={{ color: "red" }}>[pending]</span></Link>
+                </td>
               </tr>
               <tr>
                 {/* Row-5  */}
@@ -264,6 +288,8 @@ export const MRS = () => {
                 <td>
                   <Link to="/MRD300625">30-06-25</Link>
                 </td>
+                <td></td>
+                <td></td>
               </tr>
             </tbody>
           </table>

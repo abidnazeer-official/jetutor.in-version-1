@@ -19,7 +19,7 @@ export const MRD020625 = () => {
 
   return (
     <div style={{ padding: "20px", textAlign: "center" }}>
-      <h2 style={{ marginBottom: "20px", color: "#2c3e50" }}>02 July 2025</h2>
+      <h2 style={{ marginBottom: "20px", color: "#2c3e50" }}>02 June 2025</h2>
 
       {/* Image Grid */}
       <div
