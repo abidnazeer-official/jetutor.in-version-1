@@ -1,14 +1,17 @@
 import React from "react";
 import "./Days100JavaLearningPlan.css"; // Import the CSS file for styling
+import { colors } from "@mui/material";
 
 export const Days100JavaLearningPlan = () => {
   return (
     <div className="container">
       <div className="header">
         <h1>📅 90-Day Java Learning Plan</h1>
-        <p>
+        <span>
+          <p style={{color: "white"}}>
           This plan is divided into daily chunks, covering key concepts, practice exercises, and projects to build confidence. Perfect for those who want a structured way to gain both core and advanced Java programming skills.
         </p>
+        </span>
       </div>
 
       {/* Phase 1: Core Java Basics */}

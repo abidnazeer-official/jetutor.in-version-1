@@ -38,13 +38,13 @@ export const Home = () => {
               📸 Instagram jetutor.in Toppers of the Last Week
             </Typography>
             <Typography variant="body1" mb={2}>
-              Monday Results Day [05-05-25] <br />
+              Monday Results Day [04-08-25] <br />
               <span style={{ color: "green", fontWeight: "bold" }}>
                 Status: Active
               </span>
             </Typography>
             <img
-              src="https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FHome%20Page%2FCurrent%20Week%20Ranking%2FYear%202025%2FMay2025%2FJetutor%20Version%201.0.0.21.jpg?alt=media&token=e48f5a9f-6941-4e46-92c8-c2fb1f02a82b"
+              src="https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2FHome%20Page%2FCurrent%20Week%20Ranking%2FYear%202025%2FAugust%202025%2FJetutor%20Version%201.0.0.26.jpg?alt=media&token=1dae1c94-30fe-44e2-8f78-f18300a94fc0"
               alt="Current Week Ranking"
               style={{
                 width: "100%",
@@ -102,6 +102,7 @@ export const Home = () => {
         </Typography>
         <Grid container spacing={2} justifyContent="center">
           {[
+            "0E5ebWW7CbQ",
             "nAweGFw81oo",
             "Z9USwANz00U",
             "Kxa-r_vl1Q8",
@@ -209,7 +210,7 @@ export const Home = () => {
           <Typography variant="body2" mt={1}>
             <b>Contact Us:</b> support@jetutor.in
           </Typography>
-          <Typography variant="caption">Version: 1.0.0.22</Typography>
+          <Typography variant="caption">Version: 1.0.0.26</Typography>
         </Box>
       </Container>
 
