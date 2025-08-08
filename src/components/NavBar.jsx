@@ -6,16 +6,43 @@ export const NavBar = () => {
   const jetutorinlogoUrl =
     "https://firebasestorage.googleapis.com/v0/b/jetutorin.appspot.com/o/jetutor.in%2Findex.html%2Fimages%2FActive%20Learner's%20Ranking%2FTop%20image%20for%20all%2FJava%20Expert%20Tutor_20240909_065344_0000.png?alt=media&token=ba7003cd-6921-4768-888a-98793564bc37";
 
+  const linkStyle = {
+    textDecoration: "none",
+    color: "white",
+    fontSize: "16px",
+    fontWeight: "500",
+    letterSpacing: "0.5px",
+    position: "relative",
+    padding: "5px 0",
+    transition: "color 0.3s ease, transform 0.2s ease",
+  };
+
+  const handleMouseOver = (e) => {
+    e.target.style.color = "#1abc9c";
+    e.target.style.transform = "translateY(-2px)";
+  };
+
+  const handleMouseOut = (e) => {
+    e.target.style.color = "white";
+    e.target.style.transform = "translateY(0)";
+  };
+
   return (
-    <nav style={{ backgroundColor: "#2c3e50", padding: "10px 20px" }}>
+    <nav
+      style={{
+        background: "linear-gradient(90deg, #2c3e50, #34495e)",
+        padding: "10px 20px",
+        boxShadow: "0 4px 8px rgba(0,0,0,0.15)",
+      }}
+    >
       <Box
         display="flex"
         alignItems="center"
         justifyContent="space-between"
         flexWrap="wrap"
-        style={{ maxWidth: "1000px", margin: "0 auto" }}
+        style={{ maxWidth: "1200px", margin: "0 auto" }}
       >
-        {/* Logo Section */}
+        {/* Logo */}
         <Box display="flex" alignItems="center">
           <Link to="/">
             <img
@@ -23,74 +50,52 @@ export const NavBar = () => {
               alt="Jetutor Logo"
               height="50px"
               width="50px"
-              style={{ borderRadius: "50%", marginRight: "10px" }}
+              style={{
+                borderRadius: "50%",
+                marginRight: "10px",
+                border: "2px solid white",
+              }}
             />
           </Link>
-          
         </Box>
 
         {/* Navigation Links */}
         <Box
           display="flex"
           alignItems="center"
-          justifyContent="space-between"
           flexWrap="wrap"
-          style={{ gap: "15px" }}
+          style={{ gap: "20px" }}
         >
           <Link
             to="/"
-            style={{
-              textDecoration: "none",
-              color: "white",
-              fontSize: "16px",
-              fontWeight: "bold",
-              transition: "color 0.3s",
-            }}
-            onMouseOver={(e) => (e.target.style.color = "#1abc9c")}
-            onMouseOut={(e) => (e.target.style.color = "white")}
+            style={linkStyle}
+            onMouseOver={handleMouseOver}
+            onMouseOut={handleMouseOut}
           >
             Home
           </Link>
           <Link
             to="/MRS"
-            style={{
-              textDecoration: "none",
-              color: "white",
-              fontSize: "16px",
-              fontWeight: "bold",
-              transition: "color 0.3s",
-            }}
-            onMouseOver={(e) => (e.target.style.color = "#1abc9c")}
-            onMouseOut={(e) => (e.target.style.color = "white")}
+            style={linkStyle}
+            onMouseOver={handleMouseOver}
+            onMouseOut={handleMouseOut}
           >
             Monday Results Day [History]
           </Link>
           <Link
             to="/CurrentMondayResults"
-            style={{
-              textDecoration: "none",
-              color: "white",
-              fontSize: "16px",
-              fontWeight: "bold",
-              transition: "color 0.3s",
-            }}
-            onMouseOver={(e) => (e.target.style.color = "#1abc9c")}
-            onMouseOut={(e) => (e.target.style.color = "white")}
+            style={linkStyle}
+            onMouseOver={handleMouseOver}
+            onMouseOut={handleMouseOut}
           >
             Current Monday Results <br />
-            <span style={{ fontSize: "12px" }}>05-05-25</span>
+            <span style={{ fontSize: "12px", fontWeight: "300" }}>05-05-25</span>
           </Link>
           <Link
             to="/Days100LearningPlan"
-            style={{
-              textDecoration: "none",
-              color: "white",
-              fontSize: "16px",
-              fontWeight: "bold",
-              transition: "color 0.3s",
-            }}
-            onMouseOver={(e) => (e.target.style.color = "#1abc9c")}
-            onMouseOut={(e) => (e.target.style.color = "white")}
+            style={linkStyle}
+            onMouseOver={handleMouseOver}
+            onMouseOut={handleMouseOut}
           >
             90 Days Java Learning Plan
           </Link>

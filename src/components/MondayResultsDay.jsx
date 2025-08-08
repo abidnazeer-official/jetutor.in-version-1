@@ -215,6 +215,9 @@ export const MRS = () => {
                 <td>
                   <Link to="/MRD210425">21-04-25</Link>
                 </td>
+                <td>
+                  <Link to="/MRD190525">19-05-25</Link>
+                </td>
               </tr>
               <tr>
                 {/* Row-4 */}
@@ -229,6 +232,9 @@ export const MRS = () => {
                 </td>
                 <td>
                   <Link to="/MRD280425">28-04-25</Link>
+                </td>
+                <td>
+                  <Link to="/MRD260525">26-05-25</Link>
                 </td>
               </tr>
               <tr>
