@@ -71,88 +71,118 @@ import { MRD140425 } from "./components/2025 Months/April2025/MRD140425";
 import { MRD210425 } from "./components/2025 Months/April2025/MRD210425";
 import { MRD280425 } from "./components/2025 Months/April2025/MRD280425";
 import { MRD050525 } from "./components/2025 Months/May2025/MRD050525";
+import { MRD120525 } from "./components/2025 Months/May2025/MRD120525";
 
 const App = () => {
-  
-    return (
+  return (
     <>
-      <NavBar/>
+      <NavBar />
       <div>
         <Routes>
-          <Route path="/" element={<Home/>}/>
-          <Route path="/MRS" element={<MRS/>}/>
-          <Route path="/CurrentMondayResults" element={<CurrentMondayResults/>}/>
-          <Route path="/MRD200524" element={<MRD200524/>}/>
-          <Route path="/MRD270524" element={<MRD270524/>}/>
-          <Route path="/MRD030624" element={<MRD030624/>}/>
-          <Route path="/MRD100624" element={<MRD100624/>}/>
-          <Route path="/MRD170624" element={<MRD170624/>}/>
-          <Route path="/MRD240624" element={<MRD240624/>}/>
-          <Route path="/MRD010724" element={<MRD010724/>}/>
-          <Route path="/MRD080724" element={<MRD080724/>}/>
-          <Route path="/MRD150724" element={<MRD150724/>}/>
-          <Route path="/MRD220724" element={<MRD220724/>}/>
-          <Route path="/MRD290724" element={<MRD290724/>}/>
-          <Route path="/MRD050824" element={<MRD050824/>}/>
-          <Route path="/MRD120824" element={<MRD120824/>}/>
-          <Route path="/MRD190824" element={<MRD190824/>}/>
-          <Route path="/MRD260824" element={<MRD260824/>}/>
-          <Route path="/MRD020924" element={<MRD020924/>}/>
-          <Route path="/MRD090924" element={<MRD090924/>}/>
-          <Route path="/MRD160924" element={<MRD160924/>}/>
-          <Route path="/MRD230924" element={<MRD230924/>}/>
-          <Route path="/MRD300924" element={<MRD300924/>}/>
-          <Route path="/MRD071024" element={<MRD071024/>}/>
-          <Route path="/MRD141024" element={<MRD141024/>}/>
-          <Route path="/MRD211024" element={<MRD211024/>}/>
-          <Route path="/CurrentMondayResults" element={<CurrentMondayResults/>}/>
-          <Route path="/Days100LearningPlan" element={<Days100JavaLearningPlan/>}/>
-          <Route path="/MRD281024" element={<MRD281024/>}/>
-          <Route path="/MRD041124" element={<MRD041124/>}/>
-          <Route path="/MRD111124" element={<MRD111124/>}/>
-          <Route path="/MRD181124" element={<MRD181124/>}/>
-          <Route path="/MRD251124" element={<MRD251124/>}/>
-          <Route path="/MSearchedQ" element={<MSearchedQ/>}/>
-          <Route path="/CoreJavaQ" element={<CoreJavaQ/>}/>
-          <Route path="/AdvancedJavaQ" element={<AdvancedJavaQ/>}/>
-          <Route path="/MRD021224" element={<MRD021224/>}/>
-          <Route path="/MRD091224" element={<MRD091224/>}/>
-          <Route path="/MRD161224" element={<MRD161224/>}/>
-          <Route path="/MRD231224" element={<MRD231224/>}/>
-          <Route path="/FreshersIQ" element={<FreshersIQ/>}/>
-          <Route path="/MRD301224" element={<MRD301224/>}/>
-          <Route path="/OneYearExperienceIQ" element={<OneYearExperienceIQ/>}/>
-          <Route path="/TwoYearExperienceIQ" element={<TwoYearExperienceIQ/>}/>
-          <Route path="/ThreeYearExperienceIQ" element={<ThreeYearExperienceIQ/>}/>
-          <Route path="/MRD060125" element={<MRD060125/>}/>
-          <Route path="/BrotherlyAdviceForFirstYearStudents" element={<BrotherlyAdviceForFirstYearStudents/>}/>
-          <Route path="/BrotherlyAdviceForSecondYearStudents" element={<BrotherlyAdviceForSecondYearStudents/>}/>
-          <Route path="/BrotherlyAdviceForThirdYearStudents" element={<BrotherlyAdviceForThirdYearStudents/>}/>
-          <Route path="/BrotherlyAdviceForFourthYearStudents" element={<BrotherlyAdviceForFourthYearStudents/>}/>
-          <Route path="/MRD130125" element={<MRD130125/>}/>
-          <Route path="/MRD200125" element={<MRD200125/>}/>    
-          <Route path="/MRD270125" element={<MRD270125/>}/>  
-          <Route path="/MRD030225" element={<MRD030225/>}/> 
-          <Route path="/MRD100225" element={<MRD100225/>}/>
-          <Route path="/MRD170225" element={<MRD170225/>}/>
-          <Route path="/MRD240225" element={<MRD240225/>}/>
-          <Route path="/MRD030325" element={<MRD030325/>}/>
-          <Route path="/MRD100325" element={<MRD100325/>}/>
-          <Route path="/MRD170325" element={<MRD170325/>}/>
-          <Route path="/MRD240325" element={<MRD240325/>}/>
-          <Route path="/MRD310325" element={<MRD310325/>}/>
-          <Route path="/Disclaimer" element={<Disclaimer/>}/>
-          <Route path="/PrivacyPolicy" element={<PrivacyPolicy/>}/>
-          <Route path="/TermsConditions" element={<TermsConditions/>}/>
-          <Route path="/MRD070425" element={<MRD070425/>}/>
-          <Route path="/MRD140425" element={<MRD140425/>}/>
-          <Route path="/MRD210425" element={<MRD210425/>}/>
-          <Route path="/MRD280425" element={<MRD280425/>}/>
-          <Route path="/MRD050525" element={<MRD050525/>}/>
-
+          <Route path="/" element={<Home />} />
+          <Route path="/MRS" element={<MRS />} />
+          <Route
+            path="/CurrentMondayResults"
+            element={<CurrentMondayResults />}
+          />
+          <Route path="/MRD200524" element={<MRD200524 />} />
+          <Route path="/MRD270524" element={<MRD270524 />} />
+          <Route path="/MRD030624" element={<MRD030624 />} />
+          <Route path="/MRD100624" element={<MRD100624 />} />
+          <Route path="/MRD170624" element={<MRD170624 />} />
+          <Route path="/MRD240624" element={<MRD240624 />} />
+          <Route path="/MRD010724" element={<MRD010724 />} />
+          <Route path="/MRD080724" element={<MRD080724 />} />
+          <Route path="/MRD150724" element={<MRD150724 />} />
+          <Route path="/MRD220724" element={<MRD220724 />} />
+          <Route path="/MRD290724" element={<MRD290724 />} />
+          <Route path="/MRD050824" element={<MRD050824 />} />
+          <Route path="/MRD120824" element={<MRD120824 />} />
+          <Route path="/MRD190824" element={<MRD190824 />} />
+          <Route path="/MRD260824" element={<MRD260824 />} />
+          <Route path="/MRD020924" element={<MRD020924 />} />
+          <Route path="/MRD090924" element={<MRD090924 />} />
+          <Route path="/MRD160924" element={<MRD160924 />} />
+          <Route path="/MRD230924" element={<MRD230924 />} />
+          <Route path="/MRD300924" element={<MRD300924 />} />
+          <Route path="/MRD071024" element={<MRD071024 />} />
+          <Route path="/MRD141024" element={<MRD141024 />} />
+          <Route path="/MRD211024" element={<MRD211024 />} />
+          <Route
+            path="/CurrentMondayResults"
+            element={<CurrentMondayResults />}
+          />
+          <Route
+            path="/Days100LearningPlan"
+            element={<Days100JavaLearningPlan />}
+          />
+          <Route path="/MRD281024" element={<MRD281024 />} />
+          <Route path="/MRD041124" element={<MRD041124 />} />
+          <Route path="/MRD111124" element={<MRD111124 />} />
+          <Route path="/MRD181124" element={<MRD181124 />} />
+          <Route path="/MRD251124" element={<MRD251124 />} />
+          <Route path="/MSearchedQ" element={<MSearchedQ />} />
+          <Route path="/CoreJavaQ" element={<CoreJavaQ />} />
+          <Route path="/AdvancedJavaQ" element={<AdvancedJavaQ />} />
+          <Route path="/MRD021224" element={<MRD021224 />} />
+          <Route path="/MRD091224" element={<MRD091224 />} />
+          <Route path="/MRD161224" element={<MRD161224 />} />
+          <Route path="/MRD231224" element={<MRD231224 />} />
+          <Route path="/FreshersIQ" element={<FreshersIQ />} />
+          <Route path="/MRD301224" element={<MRD301224 />} />
+          <Route
+            path="/OneYearExperienceIQ"
+            element={<OneYearExperienceIQ />}
+          />
+          <Route
+            path="/TwoYearExperienceIQ"
+            element={<TwoYearExperienceIQ />}
+          />
+          <Route
+            path="/ThreeYearExperienceIQ"
+            element={<ThreeYearExperienceIQ />}
+          />
+          <Route path="/MRD060125" element={<MRD060125 />} />
+          <Route
+            path="/BrotherlyAdviceForFirstYearStudents"
+            element={<BrotherlyAdviceForFirstYearStudents />}
+          />
+          <Route
+            path="/BrotherlyAdviceForSecondYearStudents"
+            element={<BrotherlyAdviceForSecondYearStudents />}
+          />
+          <Route
+            path="/BrotherlyAdviceForThirdYearStudents"
+            element={<BrotherlyAdviceForThirdYearStudents />}
+          />
+          <Route
+            path="/BrotherlyAdviceForFourthYearStudents"
+            element={<BrotherlyAdviceForFourthYearStudents />}
+          />
+          <Route path="/MRD130125" element={<MRD130125 />} />
+          <Route path="/MRD200125" element={<MRD200125 />} />
+          <Route path="/MRD270125" element={<MRD270125 />} />
+          <Route path="/MRD030225" element={<MRD030225 />} />
+          <Route path="/MRD100225" element={<MRD100225 />} />
+          <Route path="/MRD170225" element={<MRD170225 />} />
+          <Route path="/MRD240225" element={<MRD240225 />} />
+          <Route path="/MRD030325" element={<MRD030325 />} />
+          <Route path="/MRD100325" element={<MRD100325 />} />
+          <Route path="/MRD170325" element={<MRD170325 />} />
+          <Route path="/MRD240325" element={<MRD240325 />} />
+          <Route path="/MRD310325" element={<MRD310325 />} />
+          <Route path="/Disclaimer" element={<Disclaimer />} />
+          <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
+          <Route path="/TermsConditions" element={<TermsConditions />} />
+          <Route path="/MRD070425" element={<MRD070425 />} />
+          <Route path="/MRD140425" element={<MRD140425 />} />
+          <Route path="/MRD210425" element={<MRD210425 />} />
+          <Route path="/MRD280425" element={<MRD280425 />} />
+          <Route path="/MRD050525" element={<MRD050525 />} />
+          <Route path="/MRD120525" element={<MRD120525 />} />
         </Routes>
       </div>
-      </>
+    </>
   );
 };
 export default App;
